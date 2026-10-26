@@ -1,0 +1,478 @@
+{
+  "metadatos": {
+    "nombre": "Base de conocimiento EcoBot CDMX",
+    "version": "1.0",
+    "actualizada": "2026-10-25",
+    "fuentes": [
+      "Norma Ambiental NADF-024-AMBT-2013 (SEDEMA, Ciudad de México)",
+      "Calendario 2026 de recolección diferenciada (Gobierno de la Ciudad de México, difusión en medios)",
+      "Calendarios 2026 de Reciclatrón y Mercado de Trueque (SEDEMA)"
+    ],
+    "aviso": "Los días de recolección pueden variar por alcaldía y ruta; confirma con el servicio de limpia de tu colonia."
+  },
+  "categorias": {
+    "organico": {
+      "nombre": "Orgánicos",
+      "color": "verde",
+      "dias": "martes, jueves y sábado",
+      "descripcion": "residuos biodegradables: restos de comida, cáscaras, cascarones, huesos, café, té y residuos de jardinería",
+      "preparacion": "Escúrrelos bien y no los mezcles con bolsas, servilletas sucias ni otros materiales."
+    },
+    "reciclable": {
+      "nombre": "Inorgánicos reciclables",
+      "color": "gris",
+      "dias": "lunes, miércoles, viernes y domingo",
+      "descripcion": "materiales con potencial de reciclaje: papel y cartón limpios, vidrio, PET y otros plásticos rígidos, latas, metales, envases multicapa (tetrapak), ropa y textiles",
+      "preparacion": "Entrégalos limpios y secos: enjuaga envases, aplasta botellas y cajas para que ocupen menos espacio."
+    },
+    "no_reciclable": {
+      "nombre": "Inorgánicos no reciclables",
+      "color": "naranja",
+      "dias": "lunes, miércoles, viernes y domingo",
+      "descripcion": "residuos de aprovechamiento limitado: residuos sanitarios, pañales, toallas sanitarias, papel higiénico, colillas, unicel, chicles, curitas, empaques metalizados y materiales contaminados",
+      "preparacion": "Ciérralos en bolsa. Los residuos sanitarios conviene envolverlos para proteger al personal de limpia."
+    },
+    "manejo_especial": {
+      "nombre": "Manejo especial y voluminosos",
+      "color": "café",
+      "dias": "no se entregan en la recolección ordinaria",
+      "descripcion": "residuos que requieren un manejo distinto: electrónicos, pilas, aceite de cocina usado, medicamentos caducos, focos ahorradores, muebles, colchones, llantas y cascajo",
+      "preparacion": "Llévalos a jornadas de acopio (Reciclatrón, Mercado de Trueque) o consulta con tu alcaldía la recolección de voluminosos."
+    }
+  },
+  "residuos": [
+    {
+      "id": "cáscaras",
+      "alias": [
+        "cascara",
+        "cascaras",
+        "cascara de platano",
+        "cascara de fruta",
+        "cascaras de verdura"
+      ],
+      "categoria": "organico"
+    },
+    {
+      "id": "restos de comida",
+      "alias": [
+        "restos de comida",
+        "sobras",
+        "comida",
+        "comida echada a perder",
+        "tortilla",
+        "tortillas",
+        "pan",
+        "arroz"
+      ],
+      "categoria": "organico"
+    },
+    {
+      "id": "cascarón de huevo",
+      "alias": [
+        "cascaron",
+        "cascarones",
+        "cascaron de huevo",
+        "cascara de huevo"
+      ],
+      "categoria": "organico"
+    },
+    {
+      "id": "huesos",
+      "alias": [
+        "hueso",
+        "huesos",
+        "huesos de pollo"
+      ],
+      "categoria": "organico"
+    },
+    {
+      "id": "café y té",
+      "alias": [
+        "cafe",
+        "posos de cafe",
+        "filtro de cafe",
+        "infusion",
+        "manzanilla",
+        "sobre de manzanilla"
+      ],
+      "categoria": "organico"
+    },
+    {
+      "id": "residuos de jardinería",
+      "alias": [
+        "pasto",
+        "hojas secas",
+        "hojas",
+        "ramas",
+        "flores",
+        "plantas",
+        "poda"
+      ],
+      "categoria": "organico"
+    },
+    {
+      "id": "frutas y verduras",
+      "alias": [
+        "fruta",
+        "frutas",
+        "verdura",
+        "verduras",
+        "platano",
+        "manzana",
+        "aguacate",
+        "jitomate"
+      ],
+      "categoria": "organico"
+    },
+    {
+      "id": "papel",
+      "alias": [
+        "papel",
+        "hojas de papel",
+        "cuaderno",
+        "cuadernos",
+        "periodico",
+        "revista",
+        "revistas",
+        "folleto"
+      ],
+      "categoria": "reciclable",
+      "condicionado": true
+    },
+    {
+      "id": "cartón",
+      "alias": [
+        "carton",
+        "caja de carton",
+        "cajas",
+        "caja",
+        "huevera de carton"
+      ],
+      "categoria": "reciclable",
+      "condicionado": true
+    },
+    {
+      "id": "botellas de PET",
+      "alias": [
+        "pet",
+        "botella de plastico",
+        "botellas de plastico",
+        "botella de agua",
+        "botella de refresco",
+        "botella"
+      ],
+      "categoria": "reciclable"
+    },
+    {
+      "id": "envases de plástico rígido",
+      "alias": [
+        "envase de plastico",
+        "envases de plastico",
+        "garrafon",
+        "bote de shampoo",
+        "envase de yogurt",
+        "tapa",
+        "tapas",
+        "tapitas"
+      ],
+      "categoria": "reciclable"
+    },
+    {
+      "id": "vidrio",
+      "alias": [
+        "vidrio",
+        "frasco",
+        "frascos",
+        "botella de vidrio",
+        "botellas de vidrio",
+        "envase de vidrio"
+      ],
+      "categoria": "reciclable"
+    },
+    {
+      "id": "latas y metales",
+      "alias": [
+        "lata",
+        "latas",
+        "aluminio",
+        "lata de refresco",
+        "lata de atun",
+        "metal",
+        "fierro"
+      ],
+      "categoria": "reciclable"
+    },
+    {
+      "id": "tetrapak",
+      "alias": [
+        "tetrapak",
+        "tetra pak",
+        "envase de leche",
+        "caja de leche",
+        "envase de jugo",
+        "caja de jugo"
+      ],
+      "categoria": "reciclable"
+    },
+    {
+      "id": "ropa y textiles",
+      "alias": [
+        "ropa",
+        "textiles",
+        "tela",
+        "playera",
+        "pantalon"
+      ],
+      "categoria": "reciclable"
+    },
+    {
+      "id": "pañales",
+      "alias": [
+        "panal",
+        "panales",
+        "panal desechable"
+      ],
+      "categoria": "no_reciclable"
+    },
+    {
+      "id": "toallas sanitarias",
+      "alias": [
+        "toalla sanitaria",
+        "toallas sanitarias",
+        "tampon",
+        "tampones",
+        "toallas femeninas"
+      ],
+      "categoria": "no_reciclable"
+    },
+    {
+      "id": "papel higiénico",
+      "alias": [
+        "papel higienico",
+        "papel de bano",
+        "kleenex",
+        "panuelos desechables"
+      ],
+      "categoria": "no_reciclable"
+    },
+    {
+      "id": "colillas",
+      "alias": [
+        "colilla",
+        "colillas",
+        "colillas de cigarro",
+        "cigarro",
+        "cigarros"
+      ],
+      "categoria": "no_reciclable"
+    },
+    {
+      "id": "unicel",
+      "alias": [
+        "unicel",
+        "plato de unicel",
+        "vaso de unicel",
+        "charola de unicel"
+      ],
+      "categoria": "no_reciclable"
+    },
+    {
+      "id": "chicles",
+      "alias": [
+        "chicle",
+        "chicles",
+        "goma de mascar"
+      ],
+      "categoria": "no_reciclable"
+    },
+    {
+      "id": "curitas e hisopos",
+      "alias": [
+        "curita",
+        "curitas",
+        "hisopo",
+        "hisopos",
+        "cotonete",
+        "cotonetes"
+      ],
+      "categoria": "no_reciclable"
+    },
+    {
+      "id": "empaques metalizados",
+      "alias": [
+        "bolsa de frituras",
+        "bolsas de papitas",
+        "bolsa de papas",
+        "empaque metalizado",
+        "envoltura de galletas",
+        "frituras",
+        "papitas"
+      ],
+      "categoria": "no_reciclable"
+    },
+    {
+      "id": "calzado",
+      "alias": [
+        "zapato",
+        "zapatos",
+        "tenis",
+        "calzado",
+        "chanclas"
+      ],
+      "categoria": "no_reciclable"
+    },
+    {
+      "id": "artículos de escritura",
+      "alias": [
+        "pluma",
+        "plumas",
+        "boligrafo",
+        "boligrafos",
+        "plumon",
+        "plumones",
+        "lapiz",
+        "lapices"
+      ],
+      "categoria": "no_reciclable"
+    },
+    {
+      "id": "preservativos",
+      "alias": [
+        "condon",
+        "condones",
+        "preservativo",
+        "preservativos"
+      ],
+      "categoria": "no_reciclable"
+    },
+    {
+      "id": "pilas",
+      "alias": [
+        "pila",
+        "pilas",
+        "bateria",
+        "baterias"
+      ],
+      "categoria": "manejo_especial",
+      "destino": "Reciclatrón (se reciben pilas) o contenedores de acopio de pilas."
+    },
+    {
+      "id": "electrónicos",
+      "alias": [
+        "celular",
+        "celulares",
+        "computadora",
+        "laptop",
+        "televisor",
+        "tele",
+        "impresora",
+        "cargador",
+        "cables",
+        "electronicos",
+        "aparatos electricos",
+        "licuadora",
+        "tablet",
+        "audifonos"
+      ],
+      "categoria": "manejo_especial",
+      "destino": "Reciclatrón de SEDEMA. Deben ir completos: no se reciben equipos desarmados, rotos o contaminados."
+    },
+    {
+      "id": "aceite de cocina usado",
+      "alias": [
+        "aceite",
+        "aceite de cocina",
+        "aceite usado",
+        "manteca"
+      ],
+      "categoria": "manejo_especial",
+      "destino": "Mercado de Trueque. Guárdalo frío en un envase con tapa (un garrafón o botella) y nunca lo tires al drenaje."
+    },
+    {
+      "id": "medicamentos caducos",
+      "alias": [
+        "medicina",
+        "medicinas",
+        "medicamento",
+        "medicamentos",
+        "pastillas",
+        "jarabe"
+      ],
+      "categoria": "manejo_especial",
+      "destino": "contenedores de medicamentos caducos que hay en muchas farmacias."
+    },
+    {
+      "id": "focos ahorradores y lámparas",
+      "alias": [
+        "foco",
+        "focos",
+        "foco ahorrador",
+        "lampara fluorescente",
+        "lamparas",
+        "tubo fluorescente"
+      ],
+      "categoria": "manejo_especial",
+      "destino": "un programa de acopio especializado: el Reciclatrón no los recibe porque contienen mercurio."
+    },
+    {
+      "id": "voluminosos",
+      "alias": [
+        "mueble",
+        "muebles",
+        "colchon",
+        "colchones",
+        "sillon",
+        "refrigerador",
+        "lavadora",
+        "estufa",
+        "llanta",
+        "llantas"
+      ],
+      "categoria": "manejo_especial",
+      "destino": "la oficina de limpia de tu alcaldía, que agenda la recolección de voluminosos."
+    },
+    {
+      "id": "cascajo",
+      "alias": [
+        "cascajo",
+        "escombro",
+        "residuos de construccion",
+        "tabique",
+        "cemento"
+      ],
+      "categoria": "manejo_especial",
+      "destino": "un sitio autorizado para residuos de construcción; el camión doméstico no lo recibe."
+    }
+  ],
+  "modificadores_contaminacion": [
+    "sucio",
+    "sucia",
+    "sucios",
+    "sucias",
+    "grasa",
+    "grasoso",
+    "grasosa",
+    "mojado",
+    "mojada",
+    "manchado",
+    "manchada",
+    "embarrado",
+    "pizza",
+    "usado",
+    "usada"
+  ],
+  "programas": {
+    "reciclatron": {
+      "nombre": "Reciclatrón",
+      "descripcion": "Jornadas de SEDEMA para entregar residuos electrónicos, eléctricos y pilas. Hay jornadas itinerantes por alcaldía, un punto permanente y el Mega Reciclatrón en la UNAM.",
+      "no_recibe": "focos ahorradores, lámparas fluorescentes, cableado público, módems y equipos desarmados, rotos o contaminados",
+      "proxima": "29 y 30 de octubre en la UAM Azcapotzalco; 12 y 13 de noviembre en la Universidad Iberoamericana Santa Fe; 21 de noviembre en Canal Nacional, Puente de Patos (Coyoacán); y 26 y 27 de noviembre en la UAM Iztapalapa (calendario 2026 de SEDEMA)"
+    },
+    "mercado_trueque": {
+      "nombre": "Mercado de Trueque",
+      "descripcion": "Programa de SEDEMA donde cambias reciclables separados y limpios por puntos verdes canjeables por hortalizas, plantas y productos locales. Se pide llevar al menos 1 kg de material.",
+      "recibe": "latas de aluminio y fierro, botellas de vidrio, PET y HDPE, papel, cartón, tetrapak, aceite de cocina usado y electrónicos",
+      "proximas": "8 de noviembre de 2026 en el Bosque de San Juan de Aragón y 13 de diciembre de 2026 en el Parque Tezozómoc"
+    }
+  }
+}

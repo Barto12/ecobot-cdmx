@@ -1,0 +1,11 @@
+{
+  "fecha": "2026-10-25 17:33:05",
+  "conversaciones": 12,
+  "turnos": 37,
+  "intenciones_correctas": 37,
+  "entidades_correctas": 37,
+  "turnos_correctos": 37,
+  "conversaciones_sin_falla": 12,
+  "exactitud_intencion": 1.0,
+  "exactitud_turno": 1.0
+}

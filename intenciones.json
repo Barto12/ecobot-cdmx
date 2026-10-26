@@ -1,0 +1,209 @@
+{
+  "intenciones": [
+    {
+      "tag": "saludo",
+      "descripcion": "El usuario inicia la conversación.",
+      "patrones": [
+        "hola",
+        "buenos dias",
+        "buenas tardes",
+        "buenas noches",
+        "que tal",
+        "hey",
+        "saludos",
+        "buen dia"
+      ],
+      "respuestas": [
+        "¡Hola! Soy EcoBot CDMX. Te ayudo a separar tus residuos según la norma NADF-024. Pregúntame dónde va algo, qué día pasa el camión o dónde llevar electrónicos y aceite.",
+        "¡Qué tal! Dime qué residuo quieres tirar y te digo en qué contenedor va y qué día se recoge."
+      ]
+    },
+    {
+      "tag": "despedida",
+      "descripcion": "El usuario termina la conversación.",
+      "patrones": [
+        "adios",
+        "bye",
+        "hasta luego",
+        "nos vemos",
+        "chao",
+        "hasta pronto",
+        "me voy",
+        "salir"
+      ],
+      "respuestas": [
+        "¡Hasta luego! Recuerda: limpio, seco y separado. 🌱",
+        "Nos vemos. Gracias por separar tus residuos."
+      ]
+    },
+    {
+      "tag": "agradecimiento",
+      "descripcion": "El usuario agradece la respuesta.",
+      "patrones": [
+        "gracias",
+        "te agradezco",
+        "muy amable",
+        "excelente",
+        "perfecto",
+        "muchas gracias",
+        "grax",
+        "thx",
+        "ok gracias"
+      ],
+      "respuestas": [
+        "¡Con gusto! ¿Tienes otro residuo que quieras separar?",
+        "Para eso estoy. Si te surge otra duda, pregúntame."
+      ]
+    },
+    {
+      "tag": "ayuda",
+      "descripcion": "El usuario pregunta qué puede hacer el asistente.",
+      "patrones": [
+        "ayuda",
+        "que puedes hacer",
+        "que sabes",
+        "como funcionas",
+        "opciones",
+        "menu",
+        "en que me ayudas",
+        "no se que preguntar"
+      ],
+      "respuestas": [
+        "Puedo ayudarte con:\n  • Dónde va un residuo (ej. «¿dónde tiro las pilas?»)\n  • Días de recolección (ej. «¿qué día pasan los orgánicos?»)\n  • Colores de los contenedores\n  • Cómo preparar los reciclables\n  • Reciclatrón y Mercado de Trueque\n  • Qué dice la norma NADF-024"
+      ]
+    },
+    {
+      "tag": "clasificar_residuo",
+      "descripcion": "El usuario pregunta en qué categoría va un residuo. Requiere la entidad residuo.",
+      "patrones": [
+        "donde tiro",
+        "donde va",
+        "donde van",
+        "donde pongo",
+        "en que bote",
+        "en que contenedor",
+        "es reciclable",
+        "se recicla",
+        "que hago con",
+        "como separo",
+        "donde deposito",
+        "donde echo",
+        "tirar",
+        "a que bote"
+      ],
+      "respuestas": []
+    },
+    {
+      "tag": "dias_recoleccion",
+      "descripcion": "El usuario pregunta qué días pasa la recolección, general o por categoría.",
+      "patrones": [
+        "que dia",
+        "que dias",
+        "cuando pasa",
+        "cuando pasan",
+        "horario",
+        "recogen",
+        "recoleccion",
+        "camion de la basura",
+        "pasa el camion",
+        "dia toca"
+      ],
+      "respuestas": []
+    },
+    {
+      "tag": "colores",
+      "descripcion": "El usuario pregunta por el código de colores de los contenedores.",
+      "patrones": [
+        "color",
+        "colores",
+        "de que color",
+        "codigo de colores",
+        "que color",
+        "color del contenedor"
+      ],
+      "respuestas": [
+        "Código de colores recomendado en CDMX:\n  • Verde: orgánicos\n  • Gris: inorgánicos reciclables\n  • Naranja: inorgánicos no reciclables\n  • Café: manejo especial y voluminosos"
+      ]
+    },
+    {
+      "tag": "info_categoria",
+      "descripcion": "El usuario pregunta qué incluye una categoría.",
+      "patrones": [
+        "que es",
+        "que son",
+        "que va en",
+        "que entra en",
+        "que se considera",
+        "ejemplos de",
+        "que incluye"
+      ],
+      "respuestas": []
+    },
+    {
+      "tag": "preparacion",
+      "descripcion": "El usuario pregunta cómo preparar sus residuos antes de entregarlos.",
+      "patrones": [
+        "lavar",
+        "lavo",
+        "enjuagar",
+        "limpiar",
+        "como preparo",
+        "como entrego",
+        "aplastar",
+        "hay que lavar",
+        "tengo que lavar",
+        "quitar etiqueta"
+      ],
+      "respuestas": [
+        "Regla general: limpio, seco y separado. Enjuaga envases, aplasta botellas y cajas, escurre los orgánicos y no mezcles categorías en la misma bolsa."
+      ]
+    },
+    {
+      "tag": "reciclatron",
+      "descripcion": "El usuario pregunta por el Reciclatrón o puntos de acopio de electrónicos.",
+      "patrones": [
+        "reciclatron",
+        "acopio",
+        "centro de acopio",
+        "donde llevo electronicos",
+        "jornada de reciclaje"
+      ],
+      "respuestas": []
+    },
+    {
+      "tag": "mercado_trueque",
+      "descripcion": "El usuario pregunta por el Mercado de Trueque.",
+      "patrones": [
+        "trueque",
+        "mercado de trueque",
+        "intercambiar",
+        "cambiar basura",
+        "puntos verdes",
+        "canjear"
+      ],
+      "respuestas": []
+    },
+    {
+      "tag": "normativa",
+      "descripcion": "El usuario pregunta por la norma, la obligatoriedad o por qué separar.",
+      "patrones": [
+        "norma",
+        "nadf",
+        "ley",
+        "obligatorio",
+        "multa",
+        "sancion",
+        "por que separar",
+        "para que separar",
+        "es obligatorio"
+      ],
+      "respuestas": [
+        "La Norma Ambiental NADF-024-AMBT-2013 establece cómo separar, clasificar, recolectar y almacenar los residuos en la CDMX en cuatro grupos: orgánicos, inorgánicos reciclables, inorgánicos no reciclables y de manejo especial y voluminosos. Desde enero de 2026 la separación es obligatoria y hay días fijos de recolección. No se anunció una multa: si no separas, el camión no se lleva tus residuos. El objetivo es reducir lo que llega a rellenos sanitarios y aprovechar más material."
+      ]
+    }
+  ],
+  "fallback": [
+    "No estoy seguro de haber entendido. Puedo decirte dónde va un residuo, qué día pasa el camión o dónde llevar electrónicos y aceite. ¿Me lo dices de otra forma?",
+    "Esa pregunta está fuera de lo que sé por ahora. Escribe «ayuda» para ver lo que puedo hacer."
+  ]
+}

@@ -1,0 +1,24 @@
+OK    ¿En qué bote van los huesos de pollo? → clasificar_residuo huesos
+OK    ¿Dónde pongo el cartón de huevo? → clasificar_residuo cartón
+OK    las servilletas usadas a dónde van → clasificar_residuo 
+OK    ¿Qué día recogen la basura inorgánica? → dias_recoleccion 
+OK    ¿El vidrio roto se recicla? → clasificar_residuo vidrio
+OK    tengo una laptop vieja → clasificar_residuo electrónicos
+OK    ¿Las colillas de cigarro en qué contenedor? → clasificar_residuo colillas
+OK    ¿Qué hago con un refri que ya no sirve? → clasificar_residuo voluminosos
+OK    ¿Puedo tirar el aceite por el fregadero? → clasificar_residuo aceite de cocina usado
+OK    ¿A qué hora pasa el camión? → dias_recoleccion 
+OK    ¿Dónde queda el próximo mercado de trueque? → mercado_trueque 
+OK    buen día, tengo una duda → saludo 
+FALLA ¿Qué contenedor es el naranja? → clasificar_residuo 
+       ¿Qué residuo quieres tirar? Dime el objeto, por ejemplo «cáscaras», «pilas» o «botella de vidrio».
+OK    ¿Las bolsas de papitas se reciclan? → clasificar_residuo empaques metalizados
+OK    ¿Hay multa si no separo? → normativa 
+OK    ¿Dónde tiro el cubrebocas? → clasificar_residuo 
+OK    ¿Las cajas de leche son reciclables? → clasificar_residuo tetrapak
+FALLA ¿Qué onda con el reciclatrón, qué reciben? → fallback 
+       No estoy seguro de haber entendido. Puedo decirte dónde va un residuo, qué día pasa el camión o dónde llevar electrónicos y aceite. ¿Me lo dices de otra forma?
+FALLA restos de jardín, ¿dónde van? → clasificar_residuo 
+       ¿Qué residuo quieres tirar? Dime el objeto, por ejemplo «cáscaras», «pilas» o «botella de vidrio».
+OK    ¿Recomiéndame una película? → fallback 
+{"casos": 20, "correctos": 17, "exactitud": 0.85}

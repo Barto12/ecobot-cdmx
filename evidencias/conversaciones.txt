@@ -1,0 +1,204 @@
+EcoBot CDMX — Evidencias de ejecución (2026-10-25 17:33:05)
+========================================================================
+
+[C01] Residente que separa por primera vez
+------------------------------------------------------------------------
+Usuario: Hola
+  ↳ tokens=['hol'] | intención=saludo | entidades=[] | regla=respuesta estática [OK]
+EcoBot: ¡Hola! Soy EcoBot CDMX. Te ayudo a separar tus residuos según la norma NADF-024. Pregúntame dónde va algo, qué día pasa el camión o dónde llevar electrónicos y aceite.
+
+Usuario: ¿Dónde tiro las cáscaras de plátano?
+  ↳ tokens=['donde', 'tir', 'casc', 'platan'] | intención=clasificar_residuo | entidades=['cáscaras'] | regla=clasificación por base de conocimiento [OK]
+EcoBot: Cáscaras → ORGÁNICOS (contenedor verde). Se recoge martes, jueves y sábado. Escúrrelos bien y no los mezcles con bolsas, servilletas sucias ni otros materiales.
+
+Usuario: ¿Y qué día pasan?
+  ↳ tokens=['que', 'dia', 'pas'] | intención=dias_recoleccion | entidades=[] | regla=días con categoría [OK]
+EcoBot: Orgánicos se recogen martes, jueves y sábado. Los días de recolección pueden variar por alcaldía y ruta; confirma con el servicio de limpia de tu colonia.
+
+Usuario: Gracias
+  ↳ tokens=['graci'] | intención=agradecimiento | entidades=[] | regla=respuesta estática [OK]
+EcoBot: ¡Con gusto! ¿Tienes otro residuo que quieras separar?
+
+
+[C02] Usuario con electrónicos y pilas
+------------------------------------------------------------------------
+Usuario: Buenas tardes
+  ↳ tokens=['buen', 'tard'] | intención=saludo | entidades=[] | regla=respuesta estática [OK]
+EcoBot: ¡Hola! Soy EcoBot CDMX. Te ayudo a separar tus residuos según la norma NADF-024. Pregúntame dónde va algo, qué día pasa el camión o dónde llevar electrónicos y aceite.
+
+Usuario: Tengo pilas viejas y un celular que ya no sirve, ¿qué hago con ellos?
+  ↳ tokens=['pil', 'viej', 'celul', 'que', 'no', 'sirv', 'que', 'hag'] | intención=clasificar_residuo | entidades=['pilas', 'electrónicos'] | regla=clasificación por base de conocimiento [OK]
+EcoBot: Pilas es un residuo de MANEJO ESPECIAL (contenedor café). No lo entregues al camión ordinario; llévalo a Reciclatrón (se reciben pilas) o contenedores de acopio de pilas.
+        Electrónicos es un residuo de MANEJO ESPECIAL (contenedor café). No lo entregues al camión ordinario; llévalo a Reciclatrón de SEDEMA. Deben ir completos: no se reciben equipos desarmados, rotos o contaminados.
+
+Usuario: ¿Cuándo es el próximo Reciclatrón?
+  ↳ tokens=['cuando', 'proxim', 'reciclatron'] | intención=reciclatron | entidades=[] | regla=programa [OK]
+EcoBot: Reciclatrón: Jornadas de SEDEMA para entregar residuos electrónicos, eléctricos y pilas. Hay jornadas itinerantes por alcaldía, un punto permanente y el Mega Reciclatrón en la UNAM. No recibe focos ahorradores, lámparas fluorescentes, cableado público, módems y equipos desarmados, rotos o contaminados. Próximas jornadas: 29 y 30 de octubre en la UAM Azcapotzalco; 12 y 13 de noviembre en la Universidad Iberoamericana Santa Fe; 21 de noviembre en Canal Nacional, Puente de Patos (Coyoacán); y 26 y 27 de noviembre en la UAM Iztapalapa (calendario 2026 de SEDEMA).
+
+Usuario: Adiós
+  ↳ tokens=['adi'] | intención=despedida | entidades=[] | regla=respuesta estática [OK]
+EcoBot: ¡Hasta luego! Recuerda: limpio, seco y separado. 🌱
+
+
+[C03] Duda sobre papel y cartón contaminados
+------------------------------------------------------------------------
+Usuario: ¿La caja de pizza con grasa es reciclable?
+  ↳ tokens=['caj', 'pizz', 'gras', 'recicl'] | intención=clasificar_residuo | entidades=['cartón'] | regla=clasificación por base de conocimiento [OK]
+EcoBot: Si el cartón está sucio, mojado o con grasa ya no se puede reciclar: va en INORGÁNICOS NO RECICLABLES (contenedor naranja). Se recoge lunes, miércoles, viernes y domingo.
+
+Usuario: ¿Y el periódico?
+  ↳ tokens=['period'] | intención=clasificar_residuo | entidades=['papel'] | regla=clasificación por base de conocimiento [OK]
+EcoBot: Papel → INORGÁNICOS RECICLABLES (contenedor gris). Se recoge lunes, miércoles, viernes y domingo. Entrégalos limpios y secos: enjuaga envases, aplasta botellas y cajas para que ocupen menos espacio. Ojo: solo si está limpio y seco.
+
+Usuario: ¿De qué color es el contenedor de reciclables?
+  ↳ tokens=['que', 'color', 'contenedor', 'recicl'] | intención=colores | entidades=[] | regla=color de una categoría [OK]
+EcoBot: El contenedor de inorgánicos reciclables es GRIS.
+
+
+[C04] Consulta de calendario y categorías
+------------------------------------------------------------------------
+Usuario: ¿Qué días pasa el camión de la basura?
+  ↳ tokens=['que', 'dias', 'pas', 'camion', 'basur'] | intención=dias_recoleccion | entidades=[] | regla=días generales [OK]
+EcoBot: Calendario general de recolección en CDMX:
+          • Orgánicos: martes, jueves y sábado
+          • Inorgánicos (reciclables y no reciclables): lunes, miércoles, viernes y domingo
+          • Manejo especial y voluminosos: no van en la recolección ordinaria
+        Los días de recolección pueden variar por alcaldía y ruta; confirma con el servicio de limpia de tu colonia.
+
+Usuario: ¿Qué va en los inorgánicos no reciclables?
+  ↳ tokens=['que', 'va', 'inorgan', 'no', 'recicl'] | intención=info_categoria | entidades=[] | regla=descripción de categoría [OK]
+EcoBot: Inorgánicos no reciclables (contenedor naranja): residuos de aprovechamiento limitado: residuos sanitarios, pañales, toallas sanitarias, papel higiénico, colillas, unicel, chicles, curitas, empaques metalizados y materiales contaminados. Recolección: lunes, miércoles, viernes y domingo.
+
+Usuario: ¿Los pañales?
+  ↳ tokens=['panal'] | intención=clasificar_residuo | entidades=['pañales'] | regla=clasificación por base de conocimiento [OK]
+EcoBot: Pañales → INORGÁNICOS NO RECICLABLES (contenedor naranja). Se recoge lunes, miércoles, viernes y domingo. Ciérralos en bolsa. Los residuos sanitarios conviene envolverlos para proteger al personal de limpia.
+
+
+[C05] Aceite de cocina y preparación de envases
+------------------------------------------------------------------------
+Usuario: ¿Dónde tiro el aceite de cocina usado?
+  ↳ tokens=['donde', 'tir', 'aceit', 'cocin', 'usad'] | intención=clasificar_residuo | entidades=['aceite de cocina usado'] | regla=clasificación por base de conocimiento [OK]
+EcoBot: Aceite de cocina usado es un residuo de MANEJO ESPECIAL (contenedor café). No lo entregues al camión ordinario; llévalo a Mercado de Trueque. Guárdalo frío en un envase con tapa (un garrafón o botella) y nunca lo tires al drenaje.
+
+Usuario: ¿Qué es el Mercado de Trueque?
+  ↳ tokens=['que', 'merc', 'truequ'] | intención=mercado_trueque | entidades=[] | regla=programa [OK]
+EcoBot: Mercado de Trueque: Programa de SEDEMA donde cambias reciclables separados y limpios por puntos verdes canjeables por hortalizas, plantas y productos locales. Se pide llevar al menos 1 kg de material. Recibe latas de aluminio y fierro, botellas de vidrio, PET y HDPE, papel, cartón, tetrapak, aceite de cocina usado y electrónicos. Próximas fechas: 8 de noviembre de 2026 en el Bosque de San Juan de Aragón y 13 de diciembre de 2026 en el Parque Tezozómoc.
+
+Usuario: ¿Hay que lavar las botellas antes de tirarlas?
+  ↳ tokens=['que', 'lav', 'botell', 'tir'] | intención=preparacion | entidades=['botellas de PET'] | regla=preparación [OK]
+EcoBot: Regla general: limpio, seco y separado. Enjuaga envases, aplasta botellas y cajas, escurre los orgánicos y no mezcles categorías en la misma bolsa.
+        Para inorgánicos reciclables: Entrégalos limpios y secos: enjuaga envases, aplasta botellas y cajas para que ocupen menos espacio.
+
+
+[C06] Usuario que escribe con errores ortográficos
+------------------------------------------------------------------------
+Usuario: donde va la botela de bidrio
+  ↳ tokens=['donde', 'va', 'botel', 'bidri'] | intención=clasificar_residuo | entidades=['vidrio'] | regla=clasificación por base de conocimiento [OK]
+EcoBot: Vidrio → INORGÁNICOS RECICLABLES (contenedor gris). Se recoge lunes, miércoles, viernes y domingo. Entrégalos limpios y secos: enjuaga envases, aplasta botellas y cajas para que ocupen menos espacio.
+
+Usuario: y las latas de atun
+  ↳ tokens=['lat', 'atun'] | intención=clasificar_residuo | entidades=['latas y metales'] | regla=clasificación por base de conocimiento [OK]
+EcoBot: Latas y metales → INORGÁNICOS RECICLABLES (contenedor gris). Se recoge lunes, miércoles, viernes y domingo. Entrégalos limpios y secos: enjuaga envases, aplasta botellas y cajas para que ocupen menos espacio.
+
+Usuario: ok grax
+  ↳ tokens=['ok', 'grax'] | intención=agradecimiento | entidades=[] | regla=respuesta estática [OK]
+EcoBot: ¡Con gusto! ¿Tienes otro residuo que quieras separar?
+
+
+[C07] Consulta incompleta que requiere aclaración
+------------------------------------------------------------------------
+Usuario: Quiero tirar algo
+  ↳ tokens=['quier', 'tir'] | intención=clasificar_residuo | entidades=[] | regla=falta entidad: se pide aclaración [OK]
+EcoBot: ¿Qué residuo quieres tirar? Dime el objeto, por ejemplo «cáscaras», «pilas» o «botella de vidrio».
+
+Usuario: unas pilas
+  ↳ tokens=['unas', 'pil'] | intención=clasificar_residuo | entidades=['pilas'] | regla=clasificación por base de conocimiento [OK]
+EcoBot: Pilas es un residuo de MANEJO ESPECIAL (contenedor café). No lo entregues al camión ordinario; llévalo a Reciclatrón (se reciben pilas) o contenedores de acopio de pilas.
+
+Usuario: Gracias
+  ↳ tokens=['graci'] | intención=agradecimiento | entidades=[] | regla=respuesta estática [OK]
+EcoBot: ¡Con gusto! ¿Tienes otro residuo que quieras separar?
+
+
+[C08] Pregunta sobre la normativa
+------------------------------------------------------------------------
+Usuario: ¿Es obligatorio separar la basura?
+  ↳ tokens=['obligatori', 'separ', 'basur'] | intención=normativa | entidades=[] | regla=respuesta estática [OK]
+EcoBot: La Norma Ambiental NADF-024-AMBT-2013 establece cómo separar, clasificar, recolectar y almacenar los residuos en la CDMX en cuatro grupos: orgánicos, inorgánicos reciclables, inorgánicos no reciclables y de manejo especial y voluminosos. Desde enero de 2026 la separación es obligatoria y hay días fijos de recolección. No se anunció una multa: si no separas, el camión no se lleva tus residuos. El objetivo es reducir lo que llega a rellenos sanitarios y aprovechar más material.
+
+Usuario: ¿Por qué separar si al final la revuelven?
+  ↳ tokens=['que', 'separ', 'si', 'final', 'revuelv'] | intención=normativa | entidades=[] | regla=respuesta estática [OK]
+EcoBot: La Norma Ambiental NADF-024-AMBT-2013 establece cómo separar, clasificar, recolectar y almacenar los residuos en la CDMX en cuatro grupos: orgánicos, inorgánicos reciclables, inorgánicos no reciclables y de manejo especial y voluminosos. Desde enero de 2026 la separación es obligatoria y hay días fijos de recolección. No se anunció una multa: si no separas, el camión no se lleva tus residuos. El objetivo es reducir lo que llega a rellenos sanitarios y aprovechar más material.
+
+Usuario: Hasta luego
+  ↳ tokens=['lueg'] | intención=despedida | entidades=[] | regla=respuesta estática [OK]
+EcoBot: ¡Hasta luego! Recuerda: limpio, seco y separado. 🌱
+
+
+[C09] Preguntas fuera de alcance
+------------------------------------------------------------------------
+Usuario: ¿Cómo va a estar el clima mañana?
+  ↳ tokens=['como', 'va', 'clim', 'manan'] | intención=fallback | entidades=[] | regla=fallback [OK]
+EcoBot: No estoy seguro de haber entendido. Puedo decirte dónde va un residuo, qué día pasa el camión o dónde llevar electrónicos y aceite. ¿Me lo dices de otra forma?
+
+Usuario: ¿Quién ganó el partido de ayer?
+  ↳ tokens=['gan', 'part', 'ayer'] | intención=fallback | entidades=[] | regla=fallback repetido: se muestra menú [OK]
+EcoBot: Puedo ayudarte con:
+          • Dónde va un residuo (ej. «¿dónde tiro las pilas?»)
+          • Días de recolección (ej. «¿qué día pasan los orgánicos?»)
+          • Colores de los contenedores
+          • Cómo preparar los reciclables
+          • Reciclatrón y Mercado de Trueque
+          • Qué dice la norma NADF-024
+
+Usuario: ayuda
+  ↳ tokens=['ayud'] | intención=ayuda | entidades=[] | regla=respuesta estática [OK]
+EcoBot: Puedo ayudarte con:
+          • Dónde va un residuo (ej. «¿dónde tiro las pilas?»)
+          • Días de recolección (ej. «¿qué día pasan los orgánicos?»)
+          • Colores de los contenedores
+          • Cómo preparar los reciclables
+          • Reciclatrón y Mercado de Trueque
+          • Qué dice la norma NADF-024
+
+
+[C10] Residuos voluminosos
+------------------------------------------------------------------------
+Usuario: Tengo un colchón viejo, ¿cómo me deshago de él?
+  ↳ tokens=['colchon', 'viej', 'como', 'deshag'] | intención=clasificar_residuo | entidades=['voluminosos'] | regla=clasificación por base de conocimiento [OK]
+EcoBot: Voluminosos es un residuo de MANEJO ESPECIAL (contenedor café). No lo entregues al camión ordinario; llévalo a la oficina de limpia de tu alcaldía, que agenda la recolección de voluminosos.
+
+Usuario: ¿Y qué día pasan por los voluminosos?
+  ↳ tokens=['que', 'dia', 'pas', 'volumin'] | intención=dias_recoleccion | entidades=[] | regla=días con categoría [OK]
+EcoBot: Los residuos de manejo especial y voluminosos no se entregan en la recolección ordinaria. Llévalos a jornadas de acopio (Reciclatrón, Mercado de Trueque) o consulta con tu alcaldía la recolección de voluminosos.
+
+
+[C11] Varios residuos en una sola pregunta
+------------------------------------------------------------------------
+Usuario: ¿Dónde van las medicinas caducas y los focos ahorradores?
+  ↳ tokens=['donde', 'van', 'medicin', 'caduc', 'foc', 'ahorr'] | intención=clasificar_residuo | entidades=['focos ahorradores y lámparas', 'medicamentos caducos'] | regla=clasificación por base de conocimiento [OK]
+EcoBot: Focos ahorradores y lámparas es un residuo de MANEJO ESPECIAL (contenedor café). No lo entregues al camión ordinario; llévalo a un programa de acopio especializado: el Reciclatrón no los recibe porque contienen mercurio.
+        Medicamentos caducos es un residuo de MANEJO ESPECIAL (contenedor café). No lo entregues al camión ordinario; llévalo a contenedores de medicamentos caducos que hay en muchas farmacias.
+
+Usuario: ¿El Reciclatrón recibe focos?
+  ↳ tokens=['reciclatron', 'recib', 'foc'] | intención=reciclatron | entidades=['focos ahorradores y lámparas'] | regla=programa [OK]
+EcoBot: Reciclatrón: Jornadas de SEDEMA para entregar residuos electrónicos, eléctricos y pilas. Hay jornadas itinerantes por alcaldía, un punto permanente y el Mega Reciclatrón en la UNAM. No recibe focos ahorradores, lámparas fluorescentes, cableado público, módems y equipos desarmados, rotos o contaminados. Próximas jornadas: 29 y 30 de octubre en la UAM Azcapotzalco; 12 y 13 de noviembre en la Universidad Iberoamericana Santa Fe; 21 de noviembre en Canal Nacional, Puente de Patos (Coyoacán); y 26 y 27 de noviembre en la UAM Iztapalapa (calendario 2026 de SEDEMA).
+
+Usuario: Perfecto, gracias
+  ↳ tokens=['perfect', 'graci'] | intención=agradecimiento | entidades=[] | regla=respuesta estática [OK]
+EcoBot: ¡Con gusto! ¿Tienes otro residuo que quieras separar?
+
+
+[C12] Residuo no incluido en la base de conocimiento
+------------------------------------------------------------------------
+Usuario: ¿Dónde tiro una bolsa de plástico?
+  ↳ tokens=['donde', 'tir', 'bols', 'plastic'] | intención=clasificar_residuo | entidades=[] | regla=falta entidad: se pide aclaración [OK]
+EcoBot: ¿Qué residuo quieres tirar? Dime el objeto, por ejemplo «cáscaras», «pilas» o «botella de vidrio».
+
+Usuario: ¿Y los residuos orgánicos qué incluyen?
+  ↳ tokens=['residu', 'organ', 'que', 'inclu'] | intención=info_categoria | entidades=[] | regla=descripción de categoría [OK]
+EcoBot: Orgánicos (contenedor verde): residuos biodegradables: restos de comida, cáscaras, cascarones, huesos, café, té y residuos de jardinería. Recolección: martes, jueves y sábado.
+
+Usuario: ¿Se recicla el unicel?
+  ↳ tokens=['recicl', 'unicel'] | intención=clasificar_residuo | entidades=['unicel'] | regla=clasificación por base de conocimiento [OK]
+EcoBot: Unicel → INORGÁNICOS NO RECICLABLES (contenedor naranja). Se recoge lunes, miércoles, viernes y domingo. Ciérralos en bolsa. Los residuos sanitarios conviene envolverlos para proteger al personal de limpia.
