@@ -1,0 +1,270 @@
+{
+  "entrenamiento": 675,
+  "prueba_externa": 57,
+  "prueba_nueva": 52,
+  "intenciones": [
+    "agradecimiento",
+    "ayuda",
+    "clasificar_residuo",
+    "colores",
+    "despedida",
+    "dias_recoleccion",
+    "fuera_de_alcance",
+    "info_categoria",
+    "mercado_trueque",
+    "normativa",
+    "preparacion",
+    "reciclatron",
+    "saludo"
+  ],
+  "frases_por_intencion": {
+    "clasificar_residuo": 182,
+    "fuera_de_alcance": 64,
+    "dias_recoleccion": 61,
+    "preparacion": 51,
+    "normativa": 43,
+    "mercado_trueque": 40,
+    "reciclatron": 40,
+    "info_categoria": 37,
+    "colores": 33,
+    "agradecimiento": 32,
+    "ayuda": 31,
+    "despedida": 31,
+    "saludo": 30
+  },
+  "origen": {
+    "manual": 318,
+    "plantilla": 309,
+    "ruido": 48
+  },
+  "ejemplos_preprocesamiento": [
+    {
+      "original": "¿Dónde tiro las botellas de plástico?",
+      "normalizado": "donde tiro las botellas de plastico",
+      "tokens": [
+        "donde",
+        "tiro",
+        "las",
+        "botellas",
+        "de",
+        "plastico"
+      ],
+      "sin_stopwords": [
+        "donde",
+        "tiro",
+        "botellas",
+        "plastico"
+      ],
+      "raices": [
+        "donde",
+        "tir",
+        "botell",
+        "plastic"
+      ]
+    },
+    {
+      "original": "oye, ¿qué días pasan por los orgánicos?",
+      "normalizado": "oye   que dias pasan por los organicos",
+      "tokens": [
+        "oye",
+        "que",
+        "dias",
+        "pasan",
+        "por",
+        "los",
+        "organicos"
+      ],
+      "sin_stopwords": [
+        "oye",
+        "que",
+        "dias",
+        "pasan",
+        "por",
+        "organicos"
+      ],
+      "raices": [
+        "oye",
+        "que",
+        "dias",
+        "pas",
+        "por",
+        "organ"
+      ]
+    },
+    {
+      "original": "¿Hay que lavar los frascos antes de reciclarlos?",
+      "normalizado": "hay que lavar los frascos antes de reciclarlos",
+      "tokens": [
+        "hay",
+        "que",
+        "lavar",
+        "los",
+        "frascos",
+        "antes",
+        "de",
+        "reciclarlos"
+      ],
+      "sin_stopwords": [
+        "hay",
+        "que",
+        "lavar",
+        "frascos",
+        "antes",
+        "reciclarlos"
+      ],
+      "raices": [
+        "hay",
+        "que",
+        "lav",
+        "frasc",
+        "antes",
+        "recicl"
+      ]
+    },
+    {
+      "original": "¿El Reciclatrón recibe celulares?",
+      "normalizado": "el reciclatron recibe celulares",
+      "tokens": [
+        "el",
+        "reciclatron",
+        "recibe",
+        "celulares"
+      ],
+      "sin_stopwords": [
+        "reciclatron",
+        "recibe",
+        "celulares"
+      ],
+      "raices": [
+        "reciclatron",
+        "recib",
+        "celular"
+      ]
+    }
+  ],
+  "vocabulario_unigramas": {
+    "sin_preprocesamiento": 646,
+    "normalizacion": 600,
+    "normalizacion_stopwords": 582,
+    "completo": 486
+  },
+  "modelo_seleccionado": {
+    "representacion": "Bag of Words",
+    "clasificador": "SVM lineal",
+    "C": 1.0
+  },
+  "umbral_confianza": 0.2,
+  "resultados": {
+    "prueba_externa": {
+      "clasificador": {
+        "accuracy": 0.8596,
+        "precision_macro": 0.9066,
+        "recall_macro": 0.9246,
+        "f1_macro": 0.8878
+      },
+      "reglas_avance1": {
+        "accuracy": 0.9649,
+        "precision_macro": 0.9779,
+        "recall_macro": 0.9359,
+        "f1_macro": 0.9465
+      },
+      "errores": [
+        {
+          "texto": "¿Y el periódico?",
+          "intencion": "clasificar_residuo",
+          "prediccion": "fuera_de_alcance",
+          "confianza": 0.323
+        },
+        {
+          "texto": "¿Los pañales?",
+          "intencion": "clasificar_residuo",
+          "prediccion": "fuera_de_alcance",
+          "confianza": 0.341
+        },
+        {
+          "texto": "y las latas de atun",
+          "intencion": "clasificar_residuo",
+          "prediccion": "fuera_de_alcance",
+          "confianza": 0.319
+        },
+        {
+          "texto": "ok grax",
+          "intencion": "agradecimiento",
+          "prediccion": "fuera_de_alcance",
+          "confianza": 0.28
+        },
+        {
+          "texto": "unas pilas",
+          "intencion": "clasificar_residuo",
+          "prediccion": "fuera_de_alcance",
+          "confianza": 0.338
+        },
+        {
+          "texto": "tengo una laptop vieja",
+          "intencion": "clasificar_residuo",
+          "prediccion": "fuera_de_alcance",
+          "confianza": 0.184
+        },
+        {
+          "texto": "¿Puedo tirar el aceite por el fregadero?",
+          "intencion": "clasificar_residuo",
+          "prediccion": "preparacion",
+          "confianza": 0.681
+        },
+        {
+          "texto": "¿Qué contenedor es el naranja?",
+          "intencion": "colores",
+          "prediccion": "clasificar_residuo",
+          "confianza": 0.497
+        }
+      ]
+    },
+    "prueba_nueva": {
+      "clasificador": {
+        "accuracy": 0.9231,
+        "precision_macro": 0.9397,
+        "recall_macro": 0.9231,
+        "f1_macro": 0.9239
+      },
+      "reglas_avance1": {
+        "accuracy": 0.6346,
+        "precision_macro": 0.8521,
+        "recall_macro": 0.6346,
+        "f1_macro": 0.6535
+      },
+      "errores": [
+        {
+          "texto": "¿qué se pone en el café?",
+          "intencion": "colores",
+          "prediccion": "fuera_de_alcance",
+          "confianza": 0.623
+        },
+        {
+          "texto": "¿dónde dejo una impresora vieja para reciclar?",
+          "intencion": "reciclatron",
+          "prediccion": "clasificar_residuo",
+          "confianza": 0.633
+        },
+        {
+          "texto": "bueno, adiós",
+          "intencion": "despedida",
+          "prediccion": "saludo",
+          "confianza": 0.558
+        },
+        {
+          "texto": "¿dónde venden tacos buenos?",
+          "intencion": "fuera_de_alcance",
+          "prediccion": "saludo",
+          "confianza": 0.553
+        }
+      ]
+    }
+  },
+  "pruebas_combinadas": {
+    "accuracy": 0.8899,
+    "precision_macro": 0.9227,
+    "recall_macro": 0.9146,
+    "f1_macro": 0.9082
+  },
+  "segundos": 16.6
+}

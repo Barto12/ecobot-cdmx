@@ -1,0 +1,7 @@
+configuracion,cv_f1_macro,nueva_accuracy,externa_accuracy
+"Completo, stopwords adaptadas (final)",0.8622,0.9038,0.8596
+"Completo, stopwords NLTK sin adaptar",0.8149,0.8846,0.8421
+Sin eliminar stopwords,0.8625,0.9231,0.8947
+Sin stemming,0.856,0.9231,0.8772
+Sin normalización,0.867,0.8654,0.9123
+Solo tokenización,0.8577,0.9038,0.8947

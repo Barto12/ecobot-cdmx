@@ -1,0 +1,53 @@
+texto,intencion,origen
+¿dónde echo las bolsitas de té usadas?,clasificar_residuo,avance2_nueva
+¿el bote de crema va en reciclables?,clasificar_residuo,avance2_nueva
+"traigo un montón de vasos de unicel, ¿dónde van?",clasificar_residuo,avance2_nueva
+¿esto que te mandé en la foto dónde va?,clasificar_residuo,avance2_nueva
+¿los jueves pasan por la orgánica?,dias_recoleccion,avance2_nueva
+¿cuándo se llevan el cartón?,dias_recoleccion,avance2_nueva
+¿qué día es el de la basura inorgánica?,dias_recoleccion,avance2_nueva
+¿pasan el domingo?,dias_recoleccion,avance2_nueva
+¿qué tipo de cosas son orgánicas?,info_categoria,avance2_nueva
+¿qué entra en manejo especial?,info_categoria,avance2_nueva
+¿qué diferencia hay entre los inorgánicos reciclables y los no reciclables?,info_categoria,avance2_nueva
+¿qué son los voluminosos?,info_categoria,avance2_nueva
+¿el bote verde es para orgánicos?,colores,avance2_nueva
+¿qué color corresponde al bote de lo no reciclable?,colores,avance2_nueva
+¿los colores de los contenedores qué significan?,colores,avance2_nueva
+¿qué se pone en el café?,colores,avance2_nueva
+¿hay que quitarle la tapa al garrafón?,preparacion,avance2_nueva
+¿las latas se aplastan antes de entregarlas?,preparacion,avance2_nueva
+¿tengo que limpiar los frascos?,preparacion,avance2_nueva
+¿cómo dejo listo el tetrapak para reciclar?,preparacion,avance2_nueva
+¿cuándo hay reciclatrón en la UAM?,reciclatron,avance2_nueva
+¿dónde dejo una impresora vieja para reciclar?,reciclatron,avance2_nueva
+¿el reciclatrón recibe celulares?,reciclatron,avance2_nueva
+¿qué día es el reciclatrón de noviembre?,reciclatron,avance2_nueva
+¿dónde es el próximo mercado de trueque?,mercado_trueque,avance2_nueva
+¿me dan verduras si llevo reciclables?,mercado_trueque,avance2_nueva
+¿cuántos kilos tengo que llevar al trueque?,mercado_trueque,avance2_nueva
+¿qué cosas aceptan en el trueque?,mercado_trueque,avance2_nueva
+¿qué pasa si mezclo la basura?,normativa,avance2_nueva
+¿existe alguna norma para separar residuos?,normativa,avance2_nueva
+¿es ley separar la basura en la ciudad?,normativa,avance2_nueva
+¿me multan si no separo?,normativa,avance2_nueva
+"buenas tardes, ¿qué tal?",saludo,avance2_nueva
+qué onda bot,saludo,avance2_nueva
+"hola, buenas noches",saludo,avance2_nueva
+"holi, ¿qué tal?",saludo,avance2_nueva
+"bueno, adiós",despedida,avance2_nueva
+nos vemos mañana,despedida,avance2_nueva
+"ya me voy, bye",despedida,avance2_nueva
+"hasta luego, cuídate",despedida,avance2_nueva
+muchas gracias por todo,agradecimiento,avance2_nueva
+"excelente, me sirvió",agradecimiento,avance2_nueva
+"va, mil gracias",agradecimiento,avance2_nueva
+"gracias, muy útil",agradecimiento,avance2_nueva
+¿qué cosas sabes?,ayuda,avance2_nueva
+¿cómo te pregunto?,ayuda,avance2_nueva
+dame opciones,ayuda,avance2_nueva
+¿me ayudas? no sé cómo usarte,ayuda,avance2_nueva
+¿dónde venden tacos buenos?,fuera_de_alcance,avance2_nueva
+¿qué hora cierra el banco?,fuera_de_alcance,avance2_nueva
+¿cómo está el tráfico?,fuera_de_alcance,avance2_nueva
+dime un chiste de programadores,fuera_de_alcance,avance2_nueva

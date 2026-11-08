@@ -1,0 +1,53 @@
+texto,intencion,origen,prediccion,confianza,reglas_avance1,correcto
+¿dónde echo las bolsitas de té usadas?,clasificar_residuo,avance2_nueva,clasificar_residuo,0.676,clasificar_residuo,True
+¿el bote de crema va en reciclables?,clasificar_residuo,avance2_nueva,clasificar_residuo,0.801,clasificar_residuo,True
+"traigo un montón de vasos de unicel, ¿dónde van?",clasificar_residuo,avance2_nueva,clasificar_residuo,0.875,clasificar_residuo,True
+¿esto que te mandé en la foto dónde va?,clasificar_residuo,avance2_nueva,clasificar_residuo,0.695,fuera_de_alcance,True
+¿los jueves pasan por la orgánica?,dias_recoleccion,avance2_nueva,dias_recoleccion,0.819,fuera_de_alcance,True
+¿cuándo se llevan el cartón?,dias_recoleccion,avance2_nueva,dias_recoleccion,0.446,clasificar_residuo,True
+¿qué día es el de la basura inorgánica?,dias_recoleccion,avance2_nueva,dias_recoleccion,0.662,dias_recoleccion,True
+¿pasan el domingo?,dias_recoleccion,avance2_nueva,dias_recoleccion,0.642,fuera_de_alcance,True
+¿qué tipo de cosas son orgánicas?,info_categoria,avance2_nueva,info_categoria,0.681,info_categoria,True
+¿qué entra en manejo especial?,info_categoria,avance2_nueva,info_categoria,0.832,info_categoria,True
+¿qué diferencia hay entre los inorgánicos reciclables y los no reciclables?,info_categoria,avance2_nueva,info_categoria,0.92,clasificar_residuo,True
+¿qué son los voluminosos?,info_categoria,avance2_nueva,info_categoria,0.824,info_categoria,True
+¿el bote verde es para orgánicos?,colores,avance2_nueva,colores,0.836,clasificar_residuo,True
+¿qué color corresponde al bote de lo no reciclable?,colores,avance2_nueva,colores,0.893,clasificar_residuo,True
+¿los colores de los contenedores qué significan?,colores,avance2_nueva,colores,0.856,colores,True
+¿qué se pone en el café?,colores,avance2_nueva,fuera_de_alcance,0.623,clasificar_residuo,False
+¿hay que quitarle la tapa al garrafón?,preparacion,avance2_nueva,preparacion,0.835,clasificar_residuo,True
+¿las latas se aplastan antes de entregarlas?,preparacion,avance2_nueva,preparacion,0.801,preparacion,True
+¿tengo que limpiar los frascos?,preparacion,avance2_nueva,preparacion,0.613,clasificar_residuo,True
+¿cómo dejo listo el tetrapak para reciclar?,preparacion,avance2_nueva,preparacion,0.568,clasificar_residuo,True
+¿cuándo hay reciclatrón en la UAM?,reciclatron,avance2_nueva,reciclatron,0.826,reciclatron,True
+¿dónde dejo una impresora vieja para reciclar?,reciclatron,avance2_nueva,clasificar_residuo,0.633,clasificar_residuo,False
+¿el reciclatrón recibe celulares?,reciclatron,avance2_nueva,reciclatron,0.861,reciclatron,True
+¿qué día es el reciclatrón de noviembre?,reciclatron,avance2_nueva,reciclatron,0.864,dias_recoleccion,True
+¿dónde es el próximo mercado de trueque?,mercado_trueque,avance2_nueva,mercado_trueque,0.904,mercado_trueque,True
+¿me dan verduras si llevo reciclables?,mercado_trueque,avance2_nueva,mercado_trueque,0.388,clasificar_residuo,True
+¿cuántos kilos tengo que llevar al trueque?,mercado_trueque,avance2_nueva,mercado_trueque,0.781,fuera_de_alcance,True
+¿qué cosas aceptan en el trueque?,mercado_trueque,avance2_nueva,mercado_trueque,0.783,fuera_de_alcance,True
+¿qué pasa si mezclo la basura?,normativa,avance2_nueva,normativa,0.659,fuera_de_alcance,True
+¿existe alguna norma para separar residuos?,normativa,avance2_nueva,normativa,0.829,normativa,True
+¿es ley separar la basura en la ciudad?,normativa,avance2_nueva,normativa,0.856,normativa,True
+¿me multan si no separo?,normativa,avance2_nueva,normativa,0.799,normativa,True
+"buenas tardes, ¿qué tal?",saludo,avance2_nueva,saludo,0.902,saludo,True
+qué onda bot,saludo,avance2_nueva,saludo,0.766,clasificar_residuo,True
+"hola, buenas noches",saludo,avance2_nueva,saludo,0.897,saludo,True
+"holi, ¿qué tal?",saludo,avance2_nueva,saludo,0.871,saludo,True
+"bueno, adiós",despedida,avance2_nueva,saludo,0.558,despedida,False
+nos vemos mañana,despedida,avance2_nueva,despedida,0.842,despedida,True
+"ya me voy, bye",despedida,avance2_nueva,despedida,0.908,despedida,True
+"hasta luego, cuídate",despedida,avance2_nueva,despedida,0.866,despedida,True
+muchas gracias por todo,agradecimiento,avance2_nueva,agradecimiento,0.874,agradecimiento,True
+"excelente, me sirvió",agradecimiento,avance2_nueva,agradecimiento,0.84,agradecimiento,True
+"va, mil gracias",agradecimiento,avance2_nueva,agradecimiento,0.846,agradecimiento,True
+"gracias, muy útil",agradecimiento,avance2_nueva,agradecimiento,0.91,agradecimiento,True
+¿qué cosas sabes?,ayuda,avance2_nueva,ayuda,0.296,ayuda,True
+¿cómo te pregunto?,ayuda,avance2_nueva,ayuda,0.823,fuera_de_alcance,True
+dame opciones,ayuda,avance2_nueva,ayuda,0.779,ayuda,True
+¿me ayudas? no sé cómo usarte,ayuda,avance2_nueva,ayuda,0.517,ayuda,True
+¿dónde venden tacos buenos?,fuera_de_alcance,avance2_nueva,saludo,0.553,fuera_de_alcance,False
+¿qué hora cierra el banco?,fuera_de_alcance,avance2_nueva,fuera_de_alcance,0.638,fuera_de_alcance,True
+¿cómo está el tráfico?,fuera_de_alcance,avance2_nueva,fuera_de_alcance,0.691,fuera_de_alcance,True
+dime un chiste de programadores,fuera_de_alcance,avance2_nueva,fuera_de_alcance,0.782,fuera_de_alcance,True

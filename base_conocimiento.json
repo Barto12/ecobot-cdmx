@@ -1,8 +1,8 @@
 {
   "metadatos": {
     "nombre": "Base de conocimiento EcoBot CDMX",
-    "version": "1.0",
-    "actualizada": "2026-10-25",
+    "version": "1.1",
+    "actualizada": "2026-11-07",
     "fuentes": [
       "Norma Ambiental NADF-024-AMBT-2013 (SEDEMA, Ciudad de México)",
       "Calendario 2026 de recolección diferenciada (Gobierno de la Ciudad de México, difusión en medios)",
@@ -466,13 +466,13 @@
       "nombre": "Reciclatrón",
       "descripcion": "Jornadas de SEDEMA para entregar residuos electrónicos, eléctricos y pilas. Hay jornadas itinerantes por alcaldía, un punto permanente y el Mega Reciclatrón en la UNAM.",
       "no_recibe": "focos ahorradores, lámparas fluorescentes, cableado público, módems y equipos desarmados, rotos o contaminados",
-      "proxima": "29 y 30 de octubre en la UAM Azcapotzalco; 12 y 13 de noviembre en la Universidad Iberoamericana Santa Fe; 21 de noviembre en Canal Nacional, Puente de Patos (Coyoacán); y 26 y 27 de noviembre en la UAM Iztapalapa (calendario 2026 de SEDEMA)"
+      "proxima": "12 y 13 de noviembre en la Universidad Iberoamericana Santa Fe; 21 de noviembre en Canal Nacional, Puente de Patos (Coyoacán); y 26 y 27 de noviembre en la UAM Iztapalapa (calendario 2026 de SEDEMA; confirma antes de acudir)"
     },
     "mercado_trueque": {
       "nombre": "Mercado de Trueque",
       "descripcion": "Programa de SEDEMA donde cambias reciclables separados y limpios por puntos verdes canjeables por hortalizas, plantas y productos locales. Se pide llevar al menos 1 kg de material.",
       "recibe": "latas de aluminio y fierro, botellas de vidrio, PET y HDPE, papel, cartón, tetrapak, aceite de cocina usado y electrónicos",
-      "proximas": "8 de noviembre de 2026 en el Bosque de San Juan de Aragón y 13 de diciembre de 2026 en el Parque Tezozómoc"
+      "proximas": "8 de noviembre de 2026 en el Bosque de San Juan de Aragón y 13 de diciembre de 2026 en el Parque Tezozómoc (confirma antes de acudir)"
     }
   }
 }

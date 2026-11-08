@@ -1,0 +1,14 @@
+,agradecimiento,ayuda,clasificar_residuo,colores,despedida,dias_recoleccion,fuera_de_alcance,info_categoria,mercado_trueque,normativa,preparacion,reciclatron,saludo
+agradecimiento,7,0,0,0,0,0,1,0,0,0,0,0,0
+ayuda,0,5,0,0,0,0,0,0,0,0,0,0,0
+clasificar_residuo,0,0,24,0,0,0,5,0,0,0,1,0,0
+colores,0,0,1,4,0,0,1,0,0,0,0,0,0
+despedida,0,0,0,0,5,0,0,0,0,0,0,0,1
+dias_recoleccion,0,0,0,0,0,9,0,0,0,0,0,0,0
+fuera_de_alcance,0,0,0,0,0,0,6,0,0,0,0,0,1
+info_categoria,0,0,0,0,0,0,0,6,0,0,0,0,0
+mercado_trueque,0,0,0,0,0,0,0,0,6,0,0,0,0
+normativa,0,0,0,0,0,0,0,0,0,7,0,0,0
+preparacion,0,0,0,0,0,0,0,0,0,0,5,0,0
+reciclatron,0,0,1,0,0,0,0,0,0,0,0,6,0
+saludo,0,0,0,0,0,0,0,0,0,0,0,0,7

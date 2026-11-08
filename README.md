@@ -1,57 +1,52 @@
 # EcoBot CDMX
 
-Chatbot basado en reglas que orienta a residentes de la Ciudad de México sobre la separación de residuos conforme a la Norma Ambiental **NADF-024-AMBT-2013**: en qué contenedor va cada residuo, qué días se recoge, cómo prepararlo y a dónde llevar los residuos de manejo especial.
+Asistente inteligente que orienta a residentes de la Ciudad de México sobre la separación de residuos conforme a la Norma Ambiental **NADF-024-AMBT-2013**: en qué contenedor va cada residuo, qué días se recoge, cómo prepararlo y a dónde llevar los residuos de manejo especial. Desde el Avance 2 entiende texto libre con un clasificador de intenciones y reconoce el material de una **foto** con una red neuronal convolucional.
 
-Proyecto Fase 1 · *Desarrollo de Aplicaciones con Inteligencia Artificial* (MBIA2602) · Maestría en Inteligencia Artificial, Universidad Tecmilenio.
+Proyecto por fases de *Desarrollo de Aplicaciones con Inteligencia Artificial* (MBIA2602) · Maestría en Inteligencia Artificial, Universidad Tecmilenio.
 Autor: Nazir Enoch Rosas Salgado · Profesor: Mackenson Polche.
 
 ## Ejecución en Google Colab
 
-1. Abre `EcoBot_CDMX.ipynb` en Colab (Archivo → Subir cuaderno, o desde GitHub).
-2. `Entorno de ejecución → Ejecutar todas`.
-3. La última celda abre la conversación interactiva; escribe `salir` para terminar.
+| Avance | Cuaderno | Qué hace |
+|---|---|---|
+| 1 | `EcoBot_CDMX.ipynb` | Chatbot basado en reglas con NLTK y sus pruebas |
+| 2 | `EcoBot_CDMX_Avance2.ipynb` | Clasificador de intenciones, CNN con transferencia de aprendizaje e integración texto-imagen |
+
+Para el Avance 2: abre el cuaderno en Colab, elige `Entorno de ejecución → Cambiar tipo de entorno → GPU`, y luego `Ejecutar todas`. El cuaderno clona este repositorio, descarga TrashNet y los pesos preentrenados, entrena y evalúa todo (≈5 min con GPU).
 
 ## Ejecución local
 
 ```bash
 pip install -r requirements.txt
-python ecobot.py        # conversación interactiva
-python pruebas.py       # 12 conversaciones de prueba → evidencias/
-python validacion.py    # 20 consultas de validación independiente
+python datos/generar_dataset_texto.py      # conjunto de datos textual
+python entrenar_texto.py                   # TF-IDF/BoW × Naive Bayes/SVM, ablación, evaluación
+python entrenar_imagen.py --epocas 8       # EfficientNet-B0 / ResNet50 con transferencia (descarga TrashNet)
+python evaluar_integracion.py              # integración texto-imagen y conversaciones de demostración
+python ecobot_multimodal.py                # chat interactivo; para enviar foto: foto:ruta.jpg ¿dónde va?
 ```
-
-Requiere Python 3.10 o superior.
 
 ## Estructura
 
 | Archivo | Contenido |
 |---|---|
-| `base_conocimiento.json` | Categorías NADF-024, 33 residuos con alias, programas Reciclatrón y Mercado de Trueque |
-| `intenciones.json` | 12 intenciones con patrones y respuestas, más respuestas de respaldo |
-| `ecobot.py` | Motor: preprocesamiento NLTK, detección de residuos, puntuación de intenciones, política de diálogo con contexto |
-| `pruebas.py` | 12 conversaciones (37 turnos) con intención y residuos esperados |
-| `validacion.py` | 20 consultas no usadas para ajustar reglas |
-| `EcoBot_CDMX.ipynb` | Notebook autocontenido para Colab |
-| `evidencias/` | Transcripciones, resultados por turno (CSV) y resumen de métricas |
+| `base_conocimiento.json` | Categorías NADF-024, 33 residuos con alias, programas de SEDEMA (v1.1) |
+| `intenciones.json` | Intenciones y respuestas del chatbot |
+| `ecobot.py` | Motor del Avance 1: preprocesamiento NLTK, entidades, política de diálogo |
+| `datos/generar_dataset_texto.py` | Construye el conjunto de entrenamiento (675 frases, 13 intenciones) y los de prueba |
+| `clasificador_texto.py` | Preprocesamiento por etapas, TF-IDF / Bag of Words, Naive Bayes / SVM, umbral de confianza |
+| `entrenar_texto.py` | Selección por validación cruzada, ablación del preprocesamiento, evaluación en prueba |
+| `clasificador_imagen.py` | CNN (EfficientNet-B0 o ResNet50) con transferencia de aprendizaje desde ImageNet |
+| `entrenar_imagen.py` | Partición 70/15/15, extracción de características, ajuste fino, métricas |
+| `ecobot_multimodal.py` | Bot integrado: texto + imagen → base de conocimiento → respuesta |
+| `evaluar_integracion.py` | Evaluación del sistema híbrido y prueba de extremo a extremo con fotos |
+| `evidencias/` | Avance 1 (reglas) y `evidencias/avance2/` (métricas, matrices, predicciones, conversaciones) |
+| `modelos/` | `intenciones.joblib` (clasificador de texto). La CNN se regenera con `entrenar_imagen.py`. |
 
-## Uso de NLTK
+## Datos y modelos de terceros
 
-- `word_tokenize` (punkt, español) para tokenizar.
-- `stopwords.words('spanish')` para filtrar palabras vacías, conservando interrogativas y la negación.
-- `SnowballStemmer('spanish')` para reducir variantes («botella», «botellas» → `botell`).
-- `nltk.util.ngrams` para detectar residuos de varias palabras («botella de vidrio»).
-- `nltk.metrics.edit_distance` para tolerar errores de una letra («botela de bidrio»).
-
-## Resultados
-
-| Conjunto | Turnos | Correctos | Exactitud |
-|---|---|---|---|
-| Conversaciones de prueba (v0.1, primera corrida) | 37 | 31 | 83.8 % |
-| Conversaciones de prueba (v1.0, tras correcciones) | 37 | 37 | 100 % |
-| Validación independiente (v1.0) | 20 | 17 | 85 % |
-
-La cifra de 100 % se obtuvo sobre las mismas conversaciones usadas para corregir el motor; la estimación honesta del desempeño es la de validación.
+- **TrashNet** (Yang y Thung, 2016): 2,527 fotos en 6 materiales, descargado de [garythung/trashnet](https://github.com/garythung/trashnet).
+- Pesos ImageNet de **EfficientNet-B0** y **ResNet50** publicados por la biblioteca [timm](https://github.com/huggingface/pytorch-image-models).
 
 ## Aviso
 
-Los días de recolección pueden variar por alcaldía y ruta. La información de programas corresponde al calendario 2026 de SEDEMA y debe confirmarse antes de acudir.
+Los días de recolección pueden variar por alcaldía y ruta. Las fechas de programas corresponden al calendario 2026 de SEDEMA y deben confirmarse antes de acudir.

@@ -1,0 +1,63 @@
+{
+  "errores_hibrido_prueba_externa": [
+    {
+      "texto": "ok grax",
+      "intencion": "agradecimiento",
+      "hibrido": "fuera_de_alcance"
+    },
+    {
+      "texto": "¿Puedo tirar el aceite por el fregadero?",
+      "intencion": "clasificar_residuo",
+      "hibrido": "preparacion"
+    }
+  ],
+  "errores_hibrido_prueba_nueva": [
+    {
+      "texto": "¿qué se pone en el café?",
+      "intencion": "colores",
+      "hibrido": "clasificar_residuo"
+    },
+    {
+      "texto": "¿dónde dejo una impresora vieja para reciclar?",
+      "intencion": "reciclatron",
+      "hibrido": "clasificar_residuo"
+    },
+    {
+      "texto": "bueno, adiós",
+      "intencion": "despedida",
+      "hibrido": "saludo"
+    },
+    {
+      "texto": "¿dónde venden tacos buenos?",
+      "intencion": "fuera_de_alcance",
+      "hibrido": "saludo"
+    }
+  ],
+  "texto": [
+    {
+      "conjunto": "prueba_externa",
+      "consultas": 57,
+      "reglas_avance1": 0.9649,
+      "clasificador": 0.8596,
+      "hibrido": 0.9649
+    },
+    {
+      "conjunto": "prueba_nueva",
+      "consultas": 52,
+      "reglas_avance1": 0.6346,
+      "clasificador": 0.9231,
+      "hibrido": 0.9231
+    }
+  ],
+  "extremo_a_extremo": {
+    "fotos": 380,
+    "material_correcto": 0.8895,
+    "categoria_correcta_si_se_clasifica_todo": 0.9737,
+    "respondidas_directo": 356,
+    "categoria_correcta_en_respondidas": 0.9831,
+    "material_correcto_en_respondidas": 0.9129,
+    "pide_confirmacion": 24,
+    "en_dudosas_top1_correcto": 13,
+    "en_dudosas_real_en_top3": 22
+  }
+}

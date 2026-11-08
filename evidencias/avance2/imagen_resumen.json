@@ -1,0 +1,121 @@
+{
+  "dispositivo": "cpu",
+  "imagenes": 2527,
+  "resolucion_original": [
+    512,
+    384
+  ],
+  "clases": {
+    "cardboard": "cartón",
+    "glass": "vidrio",
+    "metal": "metal",
+    "paper": "papel",
+    "plastic": "plástico",
+    "trash": "basura no reciclable"
+  },
+  "particion": {
+    "entrenamiento": {
+      "cardboard": 282,
+      "glass": 350,
+      "metal": 287,
+      "paper": 416,
+      "plastic": 337,
+      "trash": 96
+    },
+    "validacion": {
+      "cardboard": 61,
+      "glass": 75,
+      "metal": 61,
+      "paper": 89,
+      "plastic": 72,
+      "trash": 21
+    },
+    "prueba": {
+      "cardboard": 60,
+      "glass": 76,
+      "metal": 62,
+      "paper": 89,
+      "plastic": 73,
+      "trash": 20
+    },
+    "total": {
+      "cardboard": 403,
+      "glass": 501,
+      "metal": 410,
+      "paper": 594,
+      "plastic": 482,
+      "trash": 137
+    }
+  },
+  "experimentos": {
+    "A_efficientnet_b0": {
+      "descripcion": "efficientnet_b0 congelada + cabeza lineal",
+      "C": 1.0,
+      "dim_caracteristicas": 1280,
+      "muestras_entrenamiento": 5304,
+      "segundos": 161.1,
+      "validacion": {
+        "accuracy": 0.8813,
+        "precision_macro": 0.865,
+        "recall_macro": 0.843,
+        "f1_macro": 0.8515
+      },
+      "prueba": {
+        "accuracy": 0.8711,
+        "precision_macro": 0.8673,
+        "recall_macro": 0.8648,
+        "f1_macro": 0.8652
+      }
+    },
+    "A_resnet50": {
+      "descripcion": "resnet50 congelada + cabeza lineal",
+      "C": 0.03,
+      "dim_caracteristicas": 2048,
+      "muestras_entrenamiento": 5304,
+      "segundos": 442.1,
+      "validacion": {
+        "accuracy": 0.9182,
+        "precision_macro": 0.915,
+        "recall_macro": 0.9126,
+        "f1_macro": 0.913
+      },
+      "prueba": {
+        "accuracy": 0.8895,
+        "precision_macro": 0.8735,
+        "recall_macro": 0.8696,
+        "f1_macro": 0.8699
+      }
+    },
+    "B_efficientnet_b0": {
+      "descripcion": "efficientnet_b0 con ajuste fino de 2 bloques",
+      "mejor_epoca": 6,
+      "parametros_entrenables": 3163426,
+      "parametros_totales": 4015234,
+      "segundos": 541.6,
+      "validacion": {
+        "accuracy": 0.9077,
+        "precision_macro": 0.8819,
+        "recall_macro": 0.8815,
+        "f1_macro": 0.8809
+      },
+      "prueba": {
+        "accuracy": 0.8684,
+        "precision_macro": 0.8392,
+        "recall_macro": 0.8562,
+        "f1_macro": 0.8455
+      }
+    }
+  },
+  "modelo_final": "A_resnet50",
+  "umbral_confianza": 0.55,
+  "prueba_final": {
+    "accuracy": 0.8895,
+    "precision_macro": 0.8735,
+    "recall_macro": 0.8696,
+    "f1_macro": 0.8699
+  },
+  "prueba_sobre_umbral": {
+    "cobertura": 0.9368,
+    "accuracy": 0.9129
+  }
+}

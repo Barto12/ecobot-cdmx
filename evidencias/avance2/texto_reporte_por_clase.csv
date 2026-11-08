@@ -1,0 +1,17 @@
+,precision,recall,f1-score,support
+agradecimiento,1.0,0.875,0.933,8.0
+ayuda,1.0,1.0,1.0,5.0
+clasificar_residuo,0.923,0.8,0.857,30.0
+colores,1.0,0.667,0.8,6.0
+despedida,1.0,0.833,0.909,6.0
+dias_recoleccion,1.0,1.0,1.0,9.0
+fuera_de_alcance,0.462,0.857,0.6,7.0
+info_categoria,1.0,1.0,1.0,6.0
+mercado_trueque,1.0,1.0,1.0,6.0
+normativa,1.0,1.0,1.0,7.0
+preparacion,0.833,1.0,0.909,5.0
+reciclatron,1.0,0.857,0.923,7.0
+saludo,0.778,1.0,0.875,7.0
+accuracy,0.89,0.89,0.89,0.89
+macro avg,0.923,0.915,0.908,109.0
+weighted avg,0.922,0.89,0.897,109.0

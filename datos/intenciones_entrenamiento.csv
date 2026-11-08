@@ -1,0 +1,676 @@
+texto,intencion,origen
+¿qué diferencia hay entre orgánico e inorgánico?,info_categoria,manual
+¿qué preguntas te puedo hacer?,ayuda,manual
+"oigan, ¿qué día pasan por los orgánicos?",dias_recoleccion,plantilla
+¿qué onda con el tráfico en periférico?,fuera_de_alcance,manual
+¿cuándo pasa el camión de los no reciclables?,dias_recoleccion,plantilla
+¿dónde deposito el colchón?,clasificar_residuo,plantilla
+¿dónde es el trueque de este mes?,mercado_trueque,manual
+¿cuánto está el dólar?,fuera_de_alcance,manual
+"perdón, ¿cómo me deshago del aceite de cocina?",clasificar_residuo,plantilla
+"ya no tengo más dudas, aiós",despedida,ruido
+"disculpa, ¿las llantas son reciclables?",clasificar_residuo,plantilla
+instrucciones,ayuda,manual
+¿dónde se pone el reciclatrón este mes?,reciclatron,manual
+"¿me duele la cabeza, qué tomo?",fuera_de_alcance,manual
+¿cómo saco mi pasaporte?,fuera_de_alcance,manual
+"oye, el sillón viejo, ¿dónde va?",clasificar_residuo,plantilla
+"las cajas de pizza, ¿dónde van?",clasificar_residuo,plantilla
+¿para qué es el bote naranja?,colores,plantilla
+no entiendo cómo funciona esto,ayuda,manual
+"el unicel, ¿dónde va?",clasificar_residuo,plantilla
+¿qué puedes hacer?,ayuda,manual
+¿a qué contenedor va el unicel?,clasificar_residuo,plantilla
+¿cómo se clasifica la basura en la ciudad?,info_categoria,manual
+qué buena info,agradecimiento,manual
+¿en qué bote van las bolsas de frituras?,clasificar_residuo,plantilla
+¿qué días pasa el camión?,dias_recoleccion,manual
+"oye, ¿en qué bolsa pongo los focos ahorradores?",clasificar_residuo,plantilla
+"disculpa, ¿cómo separo los restos de comida?",clasificar_residuo,plantilla
+¿el aceite de cocina cuenta como reciclable?,clasificar_residuo,plantilla
+abc xyz,fuera_de_alcance,manual
+¿el cartón va en orgánicos o inorgánicos?,clasificar_residuo,plantilla
+¿y esto dónde lo echo?,clasificar_residuo,manual
+"perdón, ¿el popote se tira con lo reciclable?",clasificar_residuo,plantilla
+terminar,despedida,manual
+"una pregunta, ¿las botellas de plástico son reciclables?",clasificar_residuo,plantilla
+"buen día, ¿cómo te va?",saludo,manual
+¿cuál es la capital de Franca?,fuera_de_alcance,ruido
+holaaa,saludo,manual
+"oye bot, ¿cómo funcionan los puntos verdes?",mercado_trueque,plantilla
+¿qué dice la NADF-024?,normativa,manual
+dime una frase motivvacional,fuera_de_alcance,ruido
+¿cuándo es el reciclatrón?,reciclatron,manual
+¿de qué color es el bote de reciclable?,colores,plantilla
+¿qué pasa con la basura que no se separa?,normativa,manual
+"oye, ¿el sillón viejo cuenta como reciclable?",clasificar_residuo,plantilla
+"perdón, no sé dónde echar los zapatos rotos",clasificar_residuo,plantilla
+no sé si esto es reciclable,clasificar_residuo,manual
+qué tal,saludo,manual
+"oye, hola",saludo,manual
+"oye bot, ¿a qué contenedor va el café molido usado?",clasificar_residuo,plantilla
+"tengo varias cosas para tirar, ¿me ayudas a separarls?",clasificar_residuo,ruido
+¿en qué color de bote van los no reciclables?,colores,plantilla
+hola bot,saludo,manual
+¿cómo guadro el aceite usado?,preparacion,ruido
+¿me ayudas con mi tarea de matemáticas?,fuera_de_alcance,manual
+¿cómo programo en python?,fuera_de_alcance,manual
+¿qué sabbes hacer?,ayuda,ruido
+¿quién descubrió améirca?,fuera_de_alcance,ruido
+¿el reciclatrón cobra?,reciclatron,manual
+"perdón, ¿dónde tiro los envases de yogurt?",clasificar_residuo,plantilla
+"disculpa, ¿es cierto que ya no se llevan la basura revuelta?",normativa,plantilla
+¿cómo hago composta en un departamento grande?,fuera_de_alcance,manual
+¿qué necesito para llevar cosas al reciclatrón?,reciclatron,manual
+¿escurro los restos de comda?,preparacion,ruido
+muy útil,agradecimiento,manual
+¿aplasto los envases de yogurt?,preparacion,plantilla
+código de colores,colores,manual
+¿el miércoles pasa el camión?,dias_recoleccion,plantilla
+¿qué días recogen?,dias_recoleccion,manual
+¿cuánto cuesta un iPhone?,fuera_de_alcance,manual
+"perdón, ¿qué incluye la categoría de reciclables?",info_categoria,plantilla
+"disculpa, ¿tengo que enjuagar los platos de cartón sucios antes de tirarlos?",preparacion,plantilla
+te agradezco,agradecimiento,manual
+"oye, ¿dónde se pone el mercado de trueque?",mercado_trueque,plantilla
+¿qué horóscopo soy?,fuera_de_alcance,manual
+"¿me duele la caeza, qué tomo?",fuera_de_alcance,ruido
+¿el domingo pasa el camión?,dias_recoleccion,plantilla
+¿cómo canjeo mis puntos verdes?,mercado_trueque,manual
+"oye, ¿en qué bote van las plumas que ya no pintan?",clasificar_residuo,plantilla
+"disculpa, ¿qué entra en reciclables?",info_categoria,plantilla
+"oigan, ¿puedo tirar el periódico viejo sucio?",preparacion,plantilla
+¿cómo funcionan los puntos verdes?,mercado_trueque,manual
+¿en qué color de bote van los residuos de manejo especial?,colores,plantilla
+¿el contenedor verde es para qué?,colores,plantilla
+"oye, ¿en qué bolsa pongo las bolsas de frituras?",clasificar_residuo,plantilla
+¿cómo hago tamales?,fuera_de_alcance,manual
+"perdón, ¿en qué bolsa pongo la ropa vieja?",clasificar_residuo,plantilla
+¿dónde llevo mis electrónicos viejos?,reciclatron,manual
+"oye, ¿tengo que enjuagar los frascos de vidrio antes de tirarlos?",preparacion,plantilla
+¿el naranja qué basura es?,colores,plantilla
+¿va a llover hoy?,fuera_de_alcance,manual
+¿el camión pasa diario?,dias_recoleccion,manual
+jornada de acopio de residuos electrónicos,reciclatron,manual
+chao,despedida,manual
+¿cuándo recogen la basura orgánica?,dias_recoleccion,plantilla
+"oye bot, ¿se reciclan las jeringas?",clasificar_residuo,plantilla
+"disculpa, ¿qué son los manejo especial?",info_categoria,plantilla
+"oye, ¿las botellas de plástico en cuál bote?",clasificar_residuo,plantilla
+"perdón, ¿los cables cuentan como reciclable?",clasificar_residuo,plantilla
+qué pex,saludo,manual
+¿el mercado de trueque acepta electrónicos?,mercado_trueque,manual
+terrminar,despedida,ruido
+¿qué cambió en 2026 con la basura?,normativa,manual
+help,ayuda,manual
+menú,ayuda,manual
+"disculpa, ¿el papel de baño en cuál bote?",clasificar_residuo,plantilla
+¿dónde deposito la computadora descompuesta?,clasificar_residuo,plantilla
+excelente respuesta,agradecimiento,manual
+jajaja,fuera_de_alcance,manual
+¿dónde tiro el café molido usado?,clasificar_residuo,plantilla
+"oye bot, ¿qué hago con el rastrillo?",clasificar_residuo,plantilla
+"ya no tengo más dudas, adiós",despedida,manual
+¿el sábado recogen basura?,dias_recoleccion,plantilla
+¿qué basura recogen hoy?,dias_recoleccion,plantilla
+¿qué cuenta como basura sanitaria?,info_categoria,manual
+¿hay un color para cada tipo de basura?,colores,manual
+¿las tapas de plástico tienen que ir limpios?,preparacion,plantilla
+¿hay acopio de aparatos eléctricos?,reciclatron,manual
+¿cuántos años tienes?,fuera_de_alcance,manual
+"oye bot, ¿puedo tirar el cartón sucio?",preparacion,plantilla
+¿el cepillo de dientes es reciclable?,clasificar_residuo,plantilla
+mil gracias,agradecimiento,manual
+"oye bot, explícame qué es no reciclables",info_categoria,plantilla
+¿los restos de comida son reciclables?,clasificar_residuo,plantilla
+"hola, ¿las cáscaras de naranja son reciclables?",clasificar_residuo,plantilla
+asdfgh,fuera_de_alcance,manual
+¿de qué color es el bote de basura no reciclable?,colores,plantilla
+¿qué entra en residuos inorgánicos?,info_categoria,plantilla
+"hola, ¿qué hago con los zapatos rotos?",clasificar_residuo,plantilla
+"una pregunta, ¿qué hago con la esponja de la cocina?",clasificar_residuo,plantilla
+¿todos los días pasa el camión?,dias_recoleccion,manual
+"hola, ¿cómo esás?",saludo,ruido
+¿cómo arreglo mi computadora?,fuera_de_alcance,manual
+"perdón, ¿qué va en manejo especial?",info_categoria,plantilla
+¿aceptan televisores en el reciclatrón?,reciclatron,manual
+próxima jornada de reciclaje de electrónicos,reciclatron,manual
+¿qué hago con la bolsa de plástico?,clasificar_residuo,plantilla
+"oye bot, ¿las llantas en cuál bote?",clasificar_residuo,plantilla
+¿cuándo pasan?,dias_recoleccion,manual
+¿aplasto las tapas de plástico?,preparacion,plantilla
+"disculpa, ¿cuántos puntos verdes me dan por kilo?",mercado_trueque,plantilla
+"hola, ¿cómo estás?",saludo,manual
+"disculpa, ¿dónde deposito las cápsulas de café?",clasificar_residuo,plantilla
+"oye, ¿qué entra en manejo especial?",info_categoria,plantilla
+¿puedo llevar un refri al reciclatrón?,reciclatron,manual
+gracias por la ayuda,agradecimiento,manual
+¿cuál es el calendario de la basura en 2026?,dias_recoleccion,manual
+¿cómo bajo de peso?,fuera_de_alcance,manual
+¿en cuál contenedor pnogo esta cosa?,clasificar_residuo,ruido
+¿los edificios también deben spearar?,normativa,ruido
+"ok, entendido, gracias",agradecimiento,manual
+qué hubo,saludo,manual
+¿el mercado de trueque aceppta electrónicos?,mercado_trueque,ruido
+"oigan, ¿quién publicó la norma de separación?",normativa,plantilla
+¿cómo cuido un perro?,fuera_de_alcance,manual
+¿el periódico viejo tiene que ir limpio?,preparacion,plantilla
+"una pregunta, ¿las pilas van en orgánicos o inorgánicos?",clasificar_residuo,plantilla
+¿cuántos puntos verdes me dan por kilo?,mercado_trueque,manual
+¿qué es un residuo voluminoso?,info_categoria,manual
+"oigan, ¿qué hago con las colillas?",clasificar_residuo,plantilla
+"perdón, ¿puedo tirar las tapas de plástico a la basura normal?",clasificar_residuo,plantilla
+¿qué pasa si no separo mi basura?,normativa,manual
+"una pregunta, ¿le quito la etiqueta a las latas de refresco?",preparacion,plantilla
+"oye, las medicinas caducadas, ¿dónde van?",clasificar_residuo,plantilla
+"oigan, ¿tengo que enjuagar las latas de refresco antes de tirarlos?",preparacion,plantilla
+¿el contenedor café es para qué?,colores,plantilla
+¿cuánto cuesta el predial?,fuera_de_alcance,manual
+"disculpa, ¿a qué contenedor van los cascarones de huevo?",clasificar_residuo,plantilla
+"perdón, ¿dónde deposito el escombro?",clasificar_residuo,plantilla
+¿los orgáncos van en bolsa?,preparacion,ruido
+hey,saludo,manual
+¿dónde deposito las cajas de cereal?,clasificar_residuo,plantilla
+¿dónde deposito el periódico viejo?,clasificar_residuo,plantilla
+"hola, el periódico viejo, ¿dónde va?",clasificar_residuo,plantilla
+¿puedo tirar los cables a la basura normal?,clasificar_residuo,plantilla
+me despido,despedida,manual
+"oigan, ¿los platos de cartón sucios tienen que ir limpios?",preparacion,plantilla
+"hola, ¿dónde tiro el cargador?",clasificar_residuo,plantilla
+¿hoy hay hoy no circula?,fuera_de_alcance,manual
+hasta mañana,despedida,manual
+"va, gracias",agradecimiento,manual
+¿cuál es el mínimo de kilos para el trueque?,mercado_trueque,manual
+¿de qué color es el bote de orgánicos?,colores,plantilla
+¿qué días pasa el cmión?,dias_recoleccion,ruido
+¿qué productos hay en el trueque?,mercado_trueque,manual
+¿qué significan los colores de los botes?,colores,manual
+"oigan, ¿qué incluye la categoría de orgánicos?",info_categoria,plantilla
+¿cómo se hace un pastel?,fuera_de_alcance,manual
+¿a qué bote le toca esto?,clasificar_residuo,manual
+¿puedo tirar la esponja de la cocina a la basura normal?,clasificar_residuo,plantilla
+¿el gris es para inorgánicos?,colores,manual
+¿cómo te mando una imagen?,ayuda,manual
+"oigan, ¿a qué contenedor van las botellas de plástico?",clasificar_residuo,plantilla
+"disculpa, ¿se reciclan las cápsulas de café?",clasificar_residuo,plantilla
+¿dónde copro botes de basura baratos?,fuera_de_alcance,ruido
+¿cómo tramito mi licencia de conducir?,fuera_de_alcance,manual
+"perdón, ¿las tortillas duras son reciclables?",clasificar_residuo,plantilla
+"una pregunta, ¿qué incluye la categoría de inorgánicos?",info_categoria,plantilla
+"qué tal, buenas noches",saludo,manual
+ayúdame a separar esta basura,clasificar_residuo,manual
+¿el reciclatrón acepta computadoras rotas?,reciclatron,manual
+"disculpa, los focos ahorradores, ¿dónde van?",clasificar_residuo,plantilla
+¿qué te puedo preguntar?,ayuda,manual
+¿a dónde va a parar el pasto cortado?,clasificar_residuo,plantilla
+"qué amable, gracias",agradecimiento,manual
+¿dónnde queda el reciclatrón de Coyoacán?,reciclatron,ruido
+¿hay que secar los envases?,preparacion,manual
+colores de los boes de basura,colores,ruido
+"perdón, ¿cuándo pasa el camión de los inorgánicos?",dias_recoleccion,plantilla
+"hola, ¿dónde entrego mi tele vieja para reciclar?",reciclatron,plantilla
+¿qué día me toca sacar la basura?,dias_recoleccion,manual
+"chido, gracias",agradecimiento,manual
+¿qué norma aplica en la ciudad?,normativa,manual
+¿cómo fucionan los puntos verdes?,mercado_trueque,ruido
+"oye, ¿por qué debo separar la basura?",normativa,plantilla
+¿en qué días se rceoge cada tipo de basura?,dias_recoleccion,ruido
+no sé dónde echar las medicinas caducadas,clasificar_residuo,plantilla
+"oye bot, ¿los envases de yogurt tienen que ir limpios?",preparacion,plantilla
+¿me pueden sancionar por no separar?,normativa,manual
+"perdón, ¿en qué bolsa pongo el colchón?",clasificar_residuo,plantilla
+¿sirve de algo separar?,normativa,manual
+¿qué pasa si no seapro mi basura?,normativa,ruido
+"disculpa, ¿se reciclan los vasos desechables?",clasificar_residuo,plantilla
+¿los fines de semana pasa el camión?,dias_recoleccion,plantilla
+¿cómo preparo los envases de yogurt para reciclar?,preparacion,plantilla
+buenos días,saludo,manual
+thx,agradecimiento,manual
+¿qué cosas son de aprovechamiento limitado?,info_categoria,manual
+"oye, ¿el tetrapak tiene que ir limpio?",preparacion,plantilla
+¿hay un reciclatrón peramnente?,reciclatron,ruido
+¿el lunes recogen basura?,dias_recoleccion,plantilla
+"disculpa, ¿qué incluye la categoría de voluminosos?",info_categoria,plantilla
+"hola, ¿a qué contenedor van los vasos desechables?",clasificar_residuo,plantilla
+¿tengo que lavar todo antes de tirarlo?,preparacion,manual
+"oigan, ¿cómo separo el cartón?",clasificar_residuo,plantilla
+"las cáscaras de naranja, ¿dónde van?",clasificar_residuo,plantilla
+¿qué aparatos se pueden llevar al reciclatrón?,reciclatron,manual
+"oye, ¿el cargador va en orgánicos o inorgánicos?",clasificar_residuo,plantilla
+"hola, ¿en qué bolsa pongo los cables?",clasificar_residuo,plantilla
+"hola, ¿el periódico viejo cuenta como reciclable?",clasificar_residuo,plantilla
+¿qué es el amor?,fuera_de_alcance,manual
+"oye, ¿el reciclatrón recibe pilas?",reciclatron,plantilla
+¿qué días hay recolección diferenciada?,dias_recoleccion,manual
+"una pregunta, ¿a qué contenedor va el tetrapak?",clasificar_residuo,plantilla
+cántame una canción,fuera_de_alcance,manual
+fin,despedida,manual
+recomiéndame un restaurante,fuera_de_alcance,manual
+¿la norma ambiental dice cuántos botes debo tener?,normativa,manual
+hola hola,saludo,manual
+¿a qué hora abre el reciclatrón?,reciclatron,manual
+¿a dónde va a parar la esponja de la cocina?,clasificar_residuo,plantilla
+"oye bot, ¿las cajas de pizza son reciclables?",clasificar_residuo,plantilla
+¿cómo me deshago de las colillas?,clasificar_residuo,plantilla
+"disculpa, ¿dónde tiro las llantas?",clasificar_residuo,plantilla
+"hola, ¿el camión puede negarse a llevarse mi basura?",normativa,plantilla
+"oye, ¿en qué bote va el cargador?",clasificar_residuo,plantilla
+¿cuál es el mejjor equipo de futbol?,fuera_de_alcance,ruido
+"disculpa, explícame qué es orgánicos",info_categoria,plantilla
+nos vemos,despedida,manual
+¿qué día pasan por los reciclables?,dias_recoleccion,plantilla
+opciones,ayuda,manual
+¿qué hróscopo soy?,fuera_de_alcance,ruido
+¿hay sanciones por mezclar la basura?,normativa,manual
+"perdón, ¿a dónde van a parar los cascarones de huevo?",clasificar_residuo,plantilla
+"una pregunta, ¿dónde reciclo aparatos electrónicos?",reciclatron,plantilla
+¿cuánto mide el Everets?,fuera_de_alcance,ruido
+¿qué día recogen las jeringas?,dias_recoleccion,plantilla
+buenas,saludo,manual
+¿lo tiro en el verde o en el gris?,clasificar_residuo,manual
+¿cómo entrego los frascos de vidrio?,preparacion,plantilla
+¿cuándo es el próximo trueque?,mercado_trueque,manual
+¿cuánto mide el Everest?,fuera_de_alcance,manual
+¿en qué bote van los chicles?,clasificar_residuo,plantilla
+"hola, ¿dónde tiro la bolsa de plástico?",clasificar_residuo,plantilla
+¿qué días toca sacar los orgánicos?,dias_recoleccion,plantilla
+holi,saludo,manual
+muy amable,agradecimiento,manual
+graciaaas,agradecimiento,manual
+hasta luego bot,despedida,manual
+"hola, ¿puedo tirar el café molido usado a la basura normal?",clasificar_residuo,plantilla
+¿cuánto material necesito para el trueque?,mercado_trueque,manual
+¿quién es el presidente?,fuera_de_alcance,manual
+¿cuál es la capital de Francia?,fuera_de_alcance,manual
+"disculpa, ¿en qué bote va el papel de baño?",clasificar_residuo,plantilla
+¿qué va en voluminosos?,info_categoria,plantilla
+"disculpa, ¿el sillón viejo es reciclable?",clasificar_residuo,plantilla
+gracias ecobot,agradecimiento,manual
+bai,despedida,manual
+"hola, ¿qué tal?",saludo,manual
+"oigan, ¿qué pasa si no separo mi basura?",normativa,plantilla
+"oye, ¿puedo tirar los restos de comida a la basura normal?",clasificar_residuo,plantilla
+¿dónde se pone el mercado de trueque?,mercado_trueque,manual
+¿cuándo puedo sacar la basura?,dias_recoleccion,manual
+¿cómo cuido un peerro?,fuera_de_alcance,ruido
+"hola, ¿qué día pasan por los residuos de manejo especial?",dias_recoleccion,plantilla
+dame ejemplos de voluminosos,info_categoria,plantilla
+"tengo las servilletas usadas, ¿dónde los pongo?",clasificar_residuo,plantilla
+¿qué inormación tienes?,ayuda,ruido
+"hola, ¿el garrafón va en orgánicos o inorgánicos?",clasificar_residuo,plantilla
+¿qué reciben en el reciclatrón?,reciclatron,manual
+¿cómo me deshago del colchón?,clasificar_residuo,plantilla
+¿para qué sirve separar la basura?,normativa,manual
+¿qué comandos tienes?,ayuda,manual
+"perdón, ¿qué reciben en el reciclatrón?",reciclatron,plantilla
+¿quién ganó el clásico?,fuera_de_alcance,manual
+"tengo varias cosas para tirar, ¿me ayudas a separarlas?",clasificar_residuo,manual
+escribe un poema,fuera_de_alcance,manual
+¿qué día recogen los vasos desechables?,dias_recoleccion,plantilla
+¿en qué me ayudas?,ayuda,manual
+¿quién descubrió américa?,fuera_de_alcance,manual
+"sale, gracias",agradecimiento,manual
+"oye bot, ¿cómo preparo los frascos de vidrio para reciclar?",preparacion,plantilla
+"te pasaste, gracias",agradecimiento,manual
+"oye bot, ¿las latas de refresco van en orgánicos o inorgánicos?",clasificar_residuo,plantilla
+¿cómo me deshago de las cajas de cereal?,clasificar_residuo,plantilla
+¿qué es esto y dnde lo tiro?,clasificar_residuo,ruido
+"hola, ¿necesito llevar la basura separada al trueque?",mercado_trueque,plantilla
+¿qué día recogen los huesos de pollo?,dias_recoleccion,plantilla
+hasta la próxima,despedida,manual
+"bueno, me voy",despedida,manual
+"una pregunta, ¿las cáscaras de naranja se tiran con lo reciclable?",clasificar_residuo,plantilla
+"hola, ¿en qué bote van las medicinas caducadas?",clasificar_residuo,plantilla
+¿desde cuándo es obliigatorio separar?,normativa,ruido
+"oye bot, ¿qué va en basura orgánica?",info_categoria,plantilla
+¿cuál es la norma de residuos de la ciudad de méxico?,normativa,manual
+"gracias, me aydaste",agradecimiento,ruido
+"hey, ¿qué tal?",saludo,manual
+"disculpa, ¿las cajas de pizza tienen que ir limpios?",preparacion,plantilla
+¿cuál es el horario del reciclatrón?,reciclatron,manual
+"oye bot, ¿a dónde van a parar las jeringas?",clasificar_residuo,plantilla
+"oigan, ¿en qué bote va el pasto cortado?",clasificar_residuo,plantilla
+¿dónde cambio mi basura por plantas?,mercado_trueque,manual
+"oye bot, ¿a qué hora es el mercado de trueque?",mercado_trueque,plantilla
+¿qué color le toca a los reciclables?,colores,plantilla
+"perdón, ¿cómo separo la ropa vieja?",clasificar_residuo,plantilla
+hi,saludo,manual
+cuéntame un chiste,fuera_de_alcance,manual
+¿cómo entrego el cartón?,preparacion,plantilla
+¿qué días toca sacar la basura no reciclable?,dias_recoleccion,plantilla
+"oigan, ¿qué día pasan por la basura no reciclable?",dias_recoleccion,plantilla
+"perdón, ¿a dónde van a parar los focos ahorradores?",clasificar_residuo,plantilla
+pon msica,fuera_de_alcance,ruido
+"una pregunta, tengo la ropa vieja, ¿dónde lo pongo?",clasificar_residuo,plantilla
+"oye bot, ¿qué se considera inorgánicos?",info_categoria,plantilla
+dime una frase motivacional,fuera_de_alcance,manual
+"disculpa, ¿la bolsa de plástico en cuál bote?",clasificar_residuo,plantilla
+¿qué significa manejo especial?,info_categoria,manual
+"oigan, ¿los cuadernos usados son reciclables?",clasificar_residuo,plantilla
+¿a dónde va a parar el celular viejo?,clasificar_residuo,plantilla
+¿la separación de residuos es ley?,normativa,manual
+"hola, ¿qué hago con los pañales?",clasificar_residuo,plantilla
+"oigan, ¿dónde tiro el cepillo de dientes?",clasificar_residuo,plantilla
+¿hay trueque en noviembre?,mercado_trueque,manual
+¿en qué días se recoge cada tipo de basura?,dias_recoleccion,manual
+¿qué se tira en el bote verde?,colores,plantilla
+"oigan, ¿qué me dan a cambio de mi basura?",mercado_trueque,plantilla
+buenas noches,saludo,manual
+opcines,ayuda,ruido
+adiós ecobot,despedida,manual
+¿qué hago con los platos de cartón sucios?,clasificar_residuo,plantilla
+"oye bot, ¿en qué bolsa pongo el tetrapak?",clasificar_residuo,plantilla
+¿el camión puede negarse a llevarse mi basura?,normativa,manual
+¿cuál es el mejor equipo de futbol?,fuera_de_alcance,manual
+¿hay que lavar los platos de cartón sucios?,preparacion,plantilla
+"oigan, ¿el celular viejo es basura orgánica?",clasificar_residuo,plantilla
+ok gracias,agradecimiento,manual
+¿de qué color es el bote de inorgánicos?,colores,plantilla
+¿qué se tira en el bote café?,colores,plantilla
+"listo, gracias",agradecimiento,manual
+¿cómo entrego las botellas de plástico?,preparacion,plantilla
+"una pregunta, ¿dónde cambio mi basura por plantas?",mercado_trueque,plantilla
+¿el verde qué basura es?,colores,plantilla
+"oigan, ¿qué pasa con la basura que no se separa?",normativa,plantilla
+¿qué es eso de cambiar basura por comida?,mercado_trueque,manual
+"buenas, ¿cómo estás?",saludo,manual
+"la computadora descompuesta, ¿dónde va?",clasificar_residuo,plantilla
+dame el menú,ayuda,manual
+¿qué temas manejas?,ayuda,manual
+¿en cuántos grupos se separa la basura?,info_categoria,manual
+jajjaa,fuera_de_alcance,ruido
+"hola, ¿el reciclatrón cobra?",reciclatron,plantilla
+¿a qué hora abre el metro?,fuera_de_alcance,manual
+"hola, ¿hay que lavar las cajas de pizza?",preparacion,plantilla
+traduce esto al inglés,fuera_de_alcance,manual
+"disculpa, ¿hay que lavar el periódico viejo?",preparacion,plantilla
+¿qué comida es más sana?,fuera_de_alcance,manual
+me sirvió mucho,agradecimiento,manual
+"perdón, ¿qué cambió en 2026 con la basura?",normativa,plantilla
+¿es cierto que ya no se llevan la basura revuelta?,normativa,manual
+¿el camión de la basura pasa en la mañana o en la tarde?,dias_recoleccion,manual
+¿el cubrebocas cuenta como reciclable?,clasificar_residuo,plantilla
+¿el contenedor gris es para qué?,colores,plantilla
+"hola, buen día",saludo,manual
+¿puedo tirar el tetrapak sucio?,preparacion,plantilla
+trueque de residuos sedema,mercado_trueque,manual
+fechas del mercado de trueque,mercado_trueque,manual
+"una pregunta, no sé dónde echar el cubrebocas",clasificar_residuo,plantilla
+me voy,despedida,manual
+"una pregunta, ¿qué hago con el pasto cortado?",clasificar_residuo,plantilla
+"oye, explícame qué es basura orgánica",info_categoria,plantilla
+bye,despedida,manual
+"una pregunta, ¿los cotonetes cuentan como reciclable?",clasificar_residuo,plantilla
+"perdón, ¿en qué bote van los frascos de vidrio?",clasificar_residuo,plantilla
+"hola, ¿qué hago con el escombro?",clasificar_residuo,plantilla
+"una pregunta, ¿cuándo recogen los inorgánicos?",dias_recoleccion,plantilla
+¿qué haces?,ayuda,manual
+¿qué ley regula la basura en CDMX?,normativa,manual
+"perdón, ¿a qué contenedor van las latas de refresco?",clasificar_residuo,plantilla
+?,fuera_de_alcance,manual
+¿qué se considera reciclables?,info_categoria,plantilla
+"chao, cuídate",despedida,manual
+¿dónde va esto?,clasificar_residuo,manual
+¿cómo te pregunto algo?,ayuda,manual
+¿escurro los restos de comida?,preparacion,manual
+pefrecto,agradecimiento,ruido
+¿qué recibe el mercado de trueque?,mercado_trueque,manual
+quiero tirar algo pero no sé dónde,clasificar_residuo,manual
+¿por qué debo separar la basura?,normativa,manual
+mega reciclatrón,reciclatron,manual
+eso es todo,despedida,manual
+¿cuándo es la quincena?,fuera_de_alcance,manual
+"oye bot, ¿las latas de refresco se tiran con lo reciclable?",clasificar_residuo,plantilla
+¿me explicas cómo usarte?,ayuda,manual
+¿qué sabes hacer?,ayuda,manual
+¿los orgánicos van en bolsa?,preparacion,manual
+"hola, tengo los chicles, ¿dónde los pongo?",clasificar_residuo,plantilla
+"disculpa, ¿hay que lavar las latas de refresco?",preparacion,plantilla
+¿puedo cambiar latas por verduras?,mercado_trueque,manual
+muchas gracias,agradecimiento,manual
+¿con qué me puedes ayudar?,ayuda,manual
+¿aplasto las botellas de plástico?,preparacion,plantilla
+"una pregunta, ¿cómo separo los cuadernos usados?",clasificar_residuo,plantilla
+qué onda,saludo,manual
+¿cuáles son los residuos inorgánicos reciclables?,info_categoria,manual
+hola ecobot,saludo,manual
+¿qué tipo de preguntas respondes?,ayuda,manual
+saludos,saludo,manual
+¿qué hago con el celular viejo?,clasificar_residuo,plantilla
+¿esto es basura de manejo especial?,clasificar_residuo,manual
+¿qué va en el contenedor naranja?,colores,plantilla
+mmm,fuera_de_alcance,manual
+¿dónde reciclo aparatos electrónicos?,reciclatron,manual
+"subí una imagen, dime dónde va",clasificar_residuo,manual
+¿qué tipo de residuo es este?,clasificar_residuo,manual
+sería todo,despedida,manual
+ahí nos vemos,despedida,manual
+¿dónde hay reciclatrón?,reciclatron,manual
+¿qué es la NADF?,normativa,manual
+¿qué me dan a cambio de mi basura?,mercado_trueque,manual
+¿el jueves toca orgánica o inorgánica?,dias_recoleccion,plantilla
+¿mañana toca orgánica o inorgánica?,dias_recoleccion,plantilla
+"una pregunta, ¿se recicla el garrafón?",clasificar_residuo,plantilla
+"oye, fechas del mercado de trueque",mercado_trueque,plantilla
+¿puedes ver fotos?,ayuda,manual
+colores de los botes de basura,colores,manual
+"disculpa, ¿qué hago con las tapas de plástico?",clasificar_residuo,plantilla
+¿cómo me deshago de los zapatos rotos?,clasificar_residuo,plantilla
+"oigan, ¿cómo separo las servilletas usadas?",clasificar_residuo,plantilla
+"mira esta foto, ¿esto se recicla?",clasificar_residuo,manual
+¿en qué alcaldía es el siguiente reciclatrón?,reciclatron,manual
+nos vemos luego,despedida,manual
+"oigan, ¿qué hago con los envases de yogurt?",clasificar_residuo,plantilla
+¿en qué bote va esto?,clasificar_residuo,manual
+"oye bot, ¿cómo preparo el garrafón para reciclar?",preparacion,plantilla
+¿qué puedo cambiar en el trueque?,mercado_trueque,manual
+¿qué día me toca sacar la bassura?,dias_recoleccion,ruido
+¿puedo tirar las botellas de plástico sucios?,preparacion,plantilla
+"oye, ¿en qué bolsa pongo el unicel?",clasificar_residuo,plantilla
+¿el gobierno puede multarme?,normativa,manual
+intercambio de reciclables por hortalizas,mercado_trueque,manual
+¿qué temmas manejas?,ayuda,ruido
+"perdón, ¿puedo tirar los frascos de vidrio a la basura normal?",clasificar_residuo,plantilla
+"te mando una foto, ¿en qué contenedor va?",clasificar_residuo,manual
+¿el rastrillo es basura orgánica?,clasificar_residuo,plantilla
+¿qué es esto y dónde lo tiro?,clasificar_residuo,manual
+¿el trueque acepta aceite?,mercado_trueque,manual
+"una pregunta, ¿los vasos desechables en cuál bote?",clasificar_residuo,plantilla
+"disculpa, ¿el cepillo de dientes en cuál bote?",clasificar_residuo,plantilla
+no sé dónde echar las tortillas duras,clasificar_residuo,plantilla
+¿qué día recogen los cascarones de huevo?,dias_recoleccion,plantilla
+no sé,fuera_de_alcance,manual
+genial,agradecimiento,manual
+"hola, ¿los platos de cartón sucios son reciclables?",clasificar_residuo,plantilla
+súper,agradecimiento,manual
+"disculpa, ¿dónde deposito los huesos de pollo?",clasificar_residuo,plantilla
+¿de qué color es el contenedor de manejo especial?,colores,manual
+¿qué beneficios tiene separar residuos?,normativa,manual
+¿qué día pasan por los voluminosos?,dias_recoleccion,plantilla
+quiero cambiar mis reciclables por comida,mercado_trueque,manual
+"perdón, ¿qué días se llevan los no reciclables?",dias_recoleccion,plantilla
+"oye, ¿dónde deposito las bolsas de frituras?",clasificar_residuo,plantilla
+¿cuándo recogen los voluminosos?,dias_recoleccion,plantilla
+"hola, los platos de cartón sucios, ¿dónde van?",clasificar_residuo,plantilla
+"oye, las cápsulas de café, ¿dónde van?",clasificar_residuo,plantilla
+¿qué color le toca a la basura orgánica?,colores,plantilla
+explícame las cuatro categorías,info_categoria,manual
+bye bye,despedida,manual
+¿desde cuándo es obligatorio separar?,normativa,manual
+¿qué tipos de residuos hay?,info_categoria,manual
+¿cómo empaco la basura para el camión?,preparacion,manual
+¿en qué bote van las servilletas usadas?,clasificar_residuo,plantilla
+¿se reciclan las tortillas duras?,clasificar_residuo,plantilla
+"oigan, ¿para qué sirve separar la basura?",normativa,plantilla
+"hola, ¿qué incluye la categoría de basura orgánica?",info_categoria,plantilla
+cuídate,despedida,manual
+¿qué día recogen el cubrebocas?,dias_recoleccion,plantilla
+"una pregunta, ¿qué entra en orgánicos?",info_categoria,plantilla
+¿a qué contenedor van los cotonetes?,clasificar_residuo,plantilla
+¿qué día pasan por la basura orgánica?,dias_recoleccion,plantilla
+¿quién eres en realidad?,fuera_de_alcance,manual
+"oye, ¿los cotonetes se tiran con lo reciclable?",clasificar_residuo,plantilla
+¿para qué es el bote café?,colores,plantilla
+muy bueenos días,saludo,ruido
+horario del camión de basura,dias_recoleccion,manual
+"una pregunta, ¿hay que lavar las tapas de plástico?",preparacion,plantilla
+gracias bot,agradecimiento,manual
+"oye bot, ¿cuándo es el próximo reciclatrón?",reciclatron,plantilla
+nos vemos al rato,despedida,manual
+no sé qué preguntarte,ayuda,manual
+"perdón, ¿en qué bolsa pongo las hojas secas?",clasificar_residuo,plantilla
+¿qué días sacan la basura en mi colonia?,dias_recoleccion,manual
+"oye bot, ¿qué se considera residuos inorgánicos?",info_categoria,plantilla
+mercado de trueque de diciembre,mercado_trueque,manual
+¿para qué es el bote gris?,colores,plantilla
+¿el mercado de trueque es en Chapultepec?,mercado_trueque,manual
+¿dessde enero es obligatorio?,normativa,ruido
+calendario de recolección,dias_recoleccion,manual
+¿hay un reciclatrón permanente?,reciclatron,manual
+¿cómo invierto mi dinero?,fuera_de_alcance,manual
+"hola, los pañales, ¿dónde van?",clasificar_residuo,plantilla
+ya terminé,despedida,manual
+¿qué es la inteligencia artificial?,fuera_de_alcance,manual
+"hola, ¿hay que lavar las cajas de cereal?",preparacion,plantilla
+"hola, intercambio de reciclables por hortalizas",mercado_trueque,plantilla
+"oye, ¿la norma ambiental dice cuántos botes debo tener?",normativa,plantilla
+"perdón, el rastrillo, ¿dónde va?",clasificar_residuo,plantilla
+"oye bot, ¿los pañales se tiran con lo reciclable?",clasificar_residuo,plantilla
+¿a qué hora es el mercado de trueque?,mercado_trueque,manual
+¿qué color es cada bote?,colores,manual
+"disculpa, ¿qué aparatos se pueden llevar al reciclatrón?",reciclatron,plantilla
+¿los envases tienen que ir limpios?,preparacion,manual
+cerrar conversación,despedida,manual
+hasta pronto,despedida,manual
+¿esto lo puedo reciclar?,clasificar_residuo,manual
+"listo, me despido",despedida,manual
+"perdón, centro de acopio de electrónicos",reciclatron,plantilla
+calendario de recolecciión,dias_recoleccion,ruido
+¿en cuál contenedor pongo esta cosa?,clasificar_residuo,manual
+"perdón, ¿le quito la etiqueta al garrafón?",preparacion,plantilla
+¿cómo se clasifica la bsura en la ciudad?,info_categoria,ruido
+¿qué película me recominedas?,fuera_de_alcance,ruido
+¿dónde compro botes de basura baratos?,fuera_de_alcance,manual
+"perdón, tengo las hojas secas, ¿dónde los pongo?",clasificar_residuo,plantilla
+muchísimas gracias,agradecimiento,manual
+nos vmeos,despedida,ruido
+¿qué película me recomiendas?,fuera_de_alcance,manual
+¿quién obliga a separar la basura?,normativa,manual
+"perdón, ¿cuándo recogen lo reciclable?",dias_recoleccion,plantilla
+¿esto es orgánico o inorgánico?,clasificar_residuo,manual
+"hola, ¿puedo tirar el garrafón sucio?",preparacion,plantilla
+"una pregunta, ¿a dónde va a parar el papel de baño?",clasificar_residuo,plantilla
+"oye bot, ¿en qué bote va el tetrapak?",clasificar_residuo,plantilla
+¿puedo tirar los cascarones de huevo a la basura normal?,clasificar_residuo,plantilla
+¿junto el papel en una caja o en bolsa?,preparacion,manual
+"oigan, ¿cómo separo el garrafón?",clasificar_residuo,plantilla
+¿qué es el mercaado de trueque?,mercado_trueque,ruido
+"una pregunta, el cartón, ¿dónde va?",clasificar_residuo,plantilla
+¿los chicles en cuál bote?,clasificar_residuo,plantilla
+dame ejemplos de no reciclables,info_categoria,plantilla
+¿cómo funcionas?,ayuda,manual
+"hola, ¿el escombro va en orgánicos o inorgánicos?",clasificar_residuo,plantilla
+¿qué color uso para la basura orgánica?,colores,manual
+"oigan, ¿le quito la etiqueta al cartón?",preparacion,plantilla
+¿el reciclatrón recibe pilas?,reciclatron,manual
+¿a qué contenedor va el aceite de cocina?,clasificar_residuo,plantilla
+"perdón, ¿qué días se llevan los reciclables?",dias_recoleccion,plantilla
+saludos ecobot,saludo,manual
+no sé dónde echar las cajas de cereal,clasificar_residuo,plantilla
+¿dónde queda el reciclatrón de Coyoacán?,reciclatron,manual
+"una pregunta, ¿cuándo recogen la basura inorgánica?",dias_recoleccion,plantilla
+"oye, ¿a qué contenedor van los huesos de pollo?",clasificar_residuo,plantilla
+"perdón, ¿puedo tirar las cajas de pizza a la basura normal?",clasificar_residuo,plantilla
+¿cómo separo los envases de yogurt?,clasificar_residuo,plantilla
+"oigan, ¿desde enero es obligatorio?",normativa,plantilla
+¿cómo clasifico este residuo?,clasificar_residuo,manual
+¿los frascos de vidrio son basura orgánica?,clasificar_residuo,plantilla
+muy buenos días,saludo,manual
+"perdón, ¿puedo llevar un refri al reciclatrón?",reciclatron,plantilla
+muéstrame las opciones,ayuda,manual
+¿qué días toca sacar la basura inorgánica?,dias_recoleccion,plantilla
+¿qué basura recogen el martes?,dias_recoleccion,plantilla
+¿me pides un uber?,fuera_de_alcance,manual
+¿cómo preparo las cajas de cereal para reciclar?,preparacion,plantilla
+"una pregunta, ¿qué son los no reciclables?",info_categoria,plantilla
+¿qué va en el contenedor gris?,colores,plantilla
+"hola, ¿estás ahí?",saludo,manual
+¿qué gano con separar la basura?,normativa,manual
+¿qué hago con el popote?,clasificar_residuo,plantilla
+¿qué hora es?,fuera_de_alcance,manual
+¿dónde tiro el popote?,clasificar_residuo,plantilla
+¿los edificios también deben separar?,normativa,manual
+¿de verdad es obligatorio separar?,normativa,manual
+¿el trueque recibe ropa?,mercado_trueque,manual
+¿necesito llevar la basura separada al trueque?,mercado_trueque,manual
+¿hay jornadas de acopio de electrónicos en noviembre?,reciclatron,manual
+¿en qué color de bote van los voluminosos?,colores,plantilla
+"oye, ¿las colillas se tiran con lo reciclable?",clasificar_residuo,plantilla
+¿cuáles son las categorías de basura?,info_categoria,manual
+¿cada cuándo pasa el camión?,dias_recoleccion,manual
+"listto, gracias",agradecimiento,ruido
+¿a qué hora pasa la bausra?,dias_recoleccion,ruido
+¿qué día recogen el papel de baño?,dias_recoleccion,plantilla
+¿esto va con la basura reciclable?,clasificar_residuo,manual
+excelente,agradecimiento,manual
+¿cómo te uso?,ayuda,manual
+salir,despedida,manual
+¿cómo llego al zócalo?,fuera_de_alcance,manual
+¿por qué la ciudad pide separar en cuatro?,normativa,manual
+perfecto,agradecimiento,manual
+¿puedo tirar las cajas de cereal sucios?,preparacion,plantilla
+fechas del reciclatrón,reciclatron,manual
+"oye bot, ¿los cuadernos usados cuentan como reciclable?",clasificar_residuo,plantilla
+¿cómo debo entregar la basura?,preparacion,manual
+¿cuándo es la recolección?,dias_recoleccion,manual
+¿separo las tapas de las botellas?,preparacion,manual
+¿cómo guardo el aceite usado?,preparacion,manual
+¿el viernes pasa el camión?,dias_recoleccion,plantilla
+"oye, ¿tengo que enjuagar el tetrapak antes de tirarlo?",preparacion,plantilla
+¿qué día recogen los cotonetes?,dias_recoleccion,plantilla
+"una pregunta, ¿qué días toca sacar los residuos de manejo especial?",dias_recoleccion,plantilla
+gracias por la info,agradecimiento,manual
+¿cómo envuelvo los residuos sanitarios?,preparacion,manual
+¿dónde entrego mi tele vieja para reciclar?,reciclatron,manual
+"disculpa, ¿hay jornadas de acopio de electrónicos en noviembre?",reciclatron,plantilla
+¿tienes novia?,fuera_de_alcance,manual
+"gracias, me ayudaste",agradecimiento,manual
+¿dónde tiro la computadora descompuesta?,clasificar_residuo,plantilla
+¿de qué colores son los contenedores?,colores,manual
+¿cómo preparo los reciclables?,preparacion,manual
+¿a qué hora pasa la basura?,dias_recoleccion,manual
+¿cuánto es la multa por no separar?,normativa,manual
+¿cómo va a estar el clima?,fuera_de_alcance,manual
+¿quién publicó la norma de separación?,normativa,manual
+pon música,fuera_de_alcance,manual
+ya me voy,despedida,manual
+"una pregunta, ¿se reciclan las plumas que ya no pintan?",clasificar_residuo,plantilla
+hola qué onda,saludo,manual
+¿a qué contenedor van las jeringas?,clasificar_residuo,plantilla
+¿qué información tienes?,ayuda,manual
+¿desde enero es obligatorio?,normativa,manual
+centro de acopio de electrónicos,reciclatron,manual
+¿uién publicó la norma de separación?,normativa,ruido
+"oigan, ¿dónde tiro las tapas de plástico?",clasificar_residuo,plantilla
+muy ambale,agradecimiento,ruido
+¿qué es el reciclatrón?,reciclatron,manual
+"oye bot, dame ejemplos de residuos inorgánicos",info_categoria,plantilla
+¿para qué sirves?,ayuda,manual
+"oigan, ¿qué son los inorgánicos?",info_categoria,plantilla
+necesito ayuda,ayuda,manual
+buenas tardes ecobot,saludo,manual
+¿qué no reciben en el reciclatrón?,reciclatron,manual
+¿aplasto las cajas de pizza?,preparacion,plantilla
+"oigan, las hojas secas, ¿dónde van?",clasificar_residuo,plantilla
+¿los botes tienen colores?,colores,manual
+dame los días de recolección,dias_recoleccion,manual
+¿de qué color es el bote de basura inorgánica?,colores,plantilla
+¿en qué bolsa pongo el cubrebocas?,clasificar_residuo,plantilla
+¿cuál es la diferencia entre reciclable y no reciclable?,info_categoria,manual
+"disculpa, quiero cambiar mis reciclables por comida",mercado_trueque,plantilla
+¿cuándo pasa el camión de lo reciclable?,dias_recoleccion,plantilla
+"hola, ¿las pilas se tiran con lo reciclable?",clasificar_residuo,plantilla
+"oye, ¿los huesos de pollo son basura orgánica?",clasificar_residuo,plantilla
+¿a qué contenedor van las plumas que ya no pintan?,clasificar_residuo,plantilla
+¿en qué bolsa pongo las pilas?,clasificar_residuo,plantilla
+¿qué día recogen los cables?,dias_recoleccion,plantilla

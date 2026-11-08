@@ -1,0 +1,58 @@
+texto,intencion,origen,prediccion,confianza,reglas_avance1,correcto
+Hola,saludo,avance1_conversaciones,saludo,0.584,saludo,True
+¿Dónde tiro las cáscaras de plátano?,clasificar_residuo,avance1_conversaciones,clasificar_residuo,0.864,clasificar_residuo,True
+¿Y qué día pasan?,dias_recoleccion,avance1_conversaciones,dias_recoleccion,0.871,dias_recoleccion,True
+Gracias,agradecimiento,avance1_conversaciones,agradecimiento,0.846,agradecimiento,True
+Buenas tardes,saludo,avance1_conversaciones,saludo,0.78,saludo,True
+"Tengo pilas viejas y un celular que ya no sirve, ¿qué hago con ellos?",clasificar_residuo,avance1_conversaciones,clasificar_residuo,0.747,clasificar_residuo,True
+¿Cuándo es el próximo Reciclatrón?,reciclatron,avance1_conversaciones,reciclatron,0.871,reciclatron,True
+Adiós,despedida,avance1_conversaciones,despedida,0.524,despedida,True
+¿La caja de pizza con grasa es reciclable?,clasificar_residuo,avance1_conversaciones,clasificar_residuo,0.738,clasificar_residuo,True
+¿Y el periódico?,clasificar_residuo,avance1_conversaciones,fuera_de_alcance,0.323,clasificar_residuo,False
+¿De qué color es el contenedor de reciclables?,colores,avance1_conversaciones,colores,0.909,colores,True
+¿Qué días pasa el camión de la basura?,dias_recoleccion,avance1_conversaciones,dias_recoleccion,0.933,dias_recoleccion,True
+¿Qué va en los inorgánicos no reciclables?,info_categoria,avance1_conversaciones,info_categoria,0.867,info_categoria,True
+¿Los pañales?,clasificar_residuo,avance1_conversaciones,fuera_de_alcance,0.341,clasificar_residuo,False
+¿Dónde tiro el aceite de cocina usado?,clasificar_residuo,avance1_conversaciones,clasificar_residuo,0.882,clasificar_residuo,True
+¿Qué es el Mercado de Trueque?,mercado_trueque,avance1_conversaciones,mercado_trueque,0.909,mercado_trueque,True
+¿Hay que lavar las botellas antes de tirarlas?,preparacion,avance1_conversaciones,preparacion,0.893,preparacion,True
+donde va la botela de bidrio,clasificar_residuo,avance1_conversaciones,clasificar_residuo,0.84,clasificar_residuo,True
+y las latas de atun,clasificar_residuo,avance1_conversaciones,fuera_de_alcance,0.319,clasificar_residuo,False
+ok grax,agradecimiento,avance1_conversaciones,fuera_de_alcance,0.28,agradecimiento,False
+Quiero tirar algo,clasificar_residuo,avance1_conversaciones,clasificar_residuo,0.434,clasificar_residuo,True
+unas pilas,clasificar_residuo,avance1_conversaciones,fuera_de_alcance,0.338,clasificar_residuo,False
+Gracias,agradecimiento,avance1_conversaciones,agradecimiento,0.846,agradecimiento,True
+¿Es obligatorio separar la basura?,normativa,avance1_conversaciones,normativa,0.902,normativa,True
+¿Por qué separar si al final la revuelven?,normativa,avance1_conversaciones,normativa,0.795,normativa,True
+Hasta luego,despedida,avance1_conversaciones,despedida,0.792,despedida,True
+¿Cómo va a estar el clima mañana?,fuera_de_alcance,avance1_conversaciones,fuera_de_alcance,0.807,fuera_de_alcance,True
+¿Quién ganó el partido de ayer?,fuera_de_alcance,avance1_conversaciones,fuera_de_alcance,0.792,fuera_de_alcance,True
+ayuda,ayuda,avance1_conversaciones,ayuda,0.473,ayuda,True
+"Tengo un colchón viejo, ¿cómo me deshago de él?",clasificar_residuo,avance1_conversaciones,clasificar_residuo,0.871,clasificar_residuo,True
+¿Y qué día pasan por los voluminosos?,dias_recoleccion,avance1_conversaciones,dias_recoleccion,0.907,dias_recoleccion,True
+¿Dónde van las medicinas caducas y los focos ahorradores?,clasificar_residuo,avance1_conversaciones,clasificar_residuo,0.873,clasificar_residuo,True
+¿El Reciclatrón recibe focos?,reciclatron,avance1_conversaciones,reciclatron,0.86,reciclatron,True
+"Perfecto, gracias",agradecimiento,avance1_conversaciones,agradecimiento,0.891,agradecimiento,True
+¿Dónde tiro una bolsa de plástico?,clasificar_residuo,avance1_conversaciones,clasificar_residuo,0.895,clasificar_residuo,True
+¿Y los residuos orgánicos qué incluyen?,info_categoria,avance1_conversaciones,info_categoria,0.768,info_categoria,True
+¿Se recicla el unicel?,clasificar_residuo,avance1_conversaciones,clasificar_residuo,0.557,clasificar_residuo,True
+¿En qué bote van los huesos de pollo?,clasificar_residuo,avance1_validacion,clasificar_residuo,0.87,clasificar_residuo,True
+¿Dónde pongo el cartón de huevo?,clasificar_residuo,avance1_validacion,clasificar_residuo,0.852,clasificar_residuo,True
+las servilletas usadas a dónde van,clasificar_residuo,avance1_validacion,clasificar_residuo,0.882,clasificar_residuo,True
+¿Qué día recogen la basura inorgánica?,dias_recoleccion,avance1_validacion,dias_recoleccion,0.881,dias_recoleccion,True
+¿El vidrio roto se recicla?,clasificar_residuo,avance1_validacion,clasificar_residuo,0.588,clasificar_residuo,True
+tengo una laptop vieja,clasificar_residuo,avance1_validacion,fuera_de_alcance,0.184,clasificar_residuo,False
+¿Las colillas de cigarro en qué contenedor?,clasificar_residuo,avance1_validacion,clasificar_residuo,0.727,clasificar_residuo,True
+¿Qué hago con un refri que ya no sirve?,clasificar_residuo,avance1_validacion,clasificar_residuo,0.578,clasificar_residuo,True
+¿Puedo tirar el aceite por el fregadero?,clasificar_residuo,avance1_validacion,preparacion,0.681,clasificar_residuo,False
+¿A qué hora pasa el camión?,dias_recoleccion,avance1_validacion,dias_recoleccion,0.867,dias_recoleccion,True
+¿Dónde queda el próximo mercado de trueque?,mercado_trueque,avance1_validacion,mercado_trueque,0.895,mercado_trueque,True
+"buen día, tengo una duda",saludo,avance1_validacion,saludo,0.759,saludo,True
+¿Qué contenedor es el naranja?,colores,avance1_validacion,clasificar_residuo,0.497,clasificar_residuo,False
+¿Las bolsas de papitas se reciclan?,clasificar_residuo,avance1_validacion,clasificar_residuo,0.526,clasificar_residuo,True
+¿Hay multa si no separo?,normativa,avance1_validacion,normativa,0.864,normativa,True
+¿Dónde tiro el cubrebocas?,clasificar_residuo,avance1_validacion,clasificar_residuo,0.869,clasificar_residuo,True
+¿Las cajas de leche son reciclables?,clasificar_residuo,avance1_validacion,clasificar_residuo,0.818,clasificar_residuo,True
+"¿Qué onda con el reciclatrón, qué reciben?",reciclatron,avance1_validacion,reciclatron,0.609,fuera_de_alcance,True
+"restos de jardín, ¿dónde van?",clasificar_residuo,avance1_validacion,clasificar_residuo,0.867,clasificar_residuo,True
+¿Recomiéndame una película?,fuera_de_alcance,avance1_validacion,fuera_de_alcance,0.738,fuera_de_alcance,True
