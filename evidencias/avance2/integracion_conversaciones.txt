@@ -10,29 +10,29 @@ EcoBot: En la foto veo vidrio (100% de confianza). Vidrio → INORGÁNICOS RECIC
 D2 · Foto + pregunta de días (la intención del texto se aplica al material de la foto)
 ------------------------------------------------------------------------
 Usuario: ¿qué día pasan por esto?   [imagen: cardboard191.jpg]
-  ↳ intención=dias_recoleccion (conf. 0.90) | imagen=cardboard (p=0.97) | regla=dias_recoleccion sobre el material de la foto
-EcoBot: En la foto veo cartón (97%). Inorgánicos reciclables se recogen lunes, miércoles, viernes y domingo. Los días de recolección pueden variar por alcaldía y ruta; confirma con el servicio de limpia de tu colonia.
+  ↳ intención=dias_recoleccion (conf. 0.90) | imagen=cardboard (p=0.98) | regla=dias_recoleccion sobre el material de la foto
+EcoBot: En la foto veo cartón (98%). Inorgánicos reciclables se recogen lunes, miércoles, viernes y domingo. Los días de recolección pueden variar por alcaldía y ruta; confirma con el servicio de limpia de tu colonia.
 
 D3 · Solo foto, sin texto
 ------------------------------------------------------------------------
 Usuario: (sin texto)   [imagen: plastic374.jpg]
-  ↳ intención=clasificar_residuo (conf. 1.00) | imagen=plastic (p=0.97) | regla=clasificación por imagen
-EcoBot: En la foto veo plástico (97% de confianza). Envases de plástico rígido → INORGÁNICOS RECICLABLES (contenedor gris). Se recoge lunes, miércoles, viernes y domingo. Entrégalos limpios y secos: enjuaga envases, aplasta botellas y cajas para que ocupen menos espacio.
+  ↳ intención=clasificar_residuo (conf. 1.00) | imagen=plastic (p=0.99) | regla=clasificación por imagen
+EcoBot: En la foto veo plástico (99% de confianza). Envases de plástico rígido → INORGÁNICOS RECICLABLES (contenedor gris). Se recoge lunes, miércoles, viernes y domingo. Entrégalos limpios y secos: enjuaga envases, aplasta botellas y cajas para que ocupen menos espacio.
 
 D4 · Texto que condiciona la respuesta visual (regla de contaminación)
 ------------------------------------------------------------------------
 Usuario: está lleno de grasa, ¿se recicla?   [imagen: cardboard14.jpg]
-  ↳ intención=clasificar_residuo (conf. 0.62) | imagen=cardboard (p=0.99) | regla=clasificación por imagen
-EcoBot: En la foto veo cartón (99% de confianza). Si el cartón está sucio, mojado o con grasa ya no se puede reciclar: va en INORGÁNICOS NO RECICLABLES (contenedor naranja). Se recoge lunes, miércoles, viernes y domingo.
+  ↳ intención=clasificar_residuo (conf. 0.62) | imagen=cardboard (p=1.00) | regla=clasificación por imagen
+EcoBot: En la foto veo cartón (100% de confianza). Si el cartón está sucio, mojado o con grasa ya no se puede reciclar: va en INORGÁNICOS NO RECICLABLES (contenedor naranja). Se recoge lunes, miércoles, viernes y domingo.
 
 D5 · Foto dudosa: el bot pide confirmación y el usuario responde
 ------------------------------------------------------------------------
-Usuario: ¿en qué bote va?   [imagen: metal70.jpg]
-  ↳ intención=clasificar_residuo (conf. 0.82) | imagen=metal (p=0.45) | regla=foto con confianza baja: pide confirmación
-EcoBot: En la foto creo ver metal (45% de confianza), pero no estoy seguro; también podría ser vidrio (28%), plástico (26%). ¿Me confirmas qué material es? Puedes responder «sí» o escribir el material.
-Usuario: es metal
-  ↳ intención=clasificar_residuo (conf. 0.61) | regla=residuo mencionado (entidad)
-EcoBot: Latas y metales → INORGÁNICOS RECICLABLES (contenedor gris). Se recoge lunes, miércoles, viernes y domingo. Entrégalos limpios y secos: enjuaga envases, aplasta botellas y cajas para que ocupen menos espacio.
+Usuario: ¿en qué bote va?   [imagen: glass63.jpg]
+  ↳ intención=clasificar_residuo (conf. 0.82) | imagen=plastic (p=0.68) | regla=foto con confianza baja: pide confirmación
+EcoBot: En la foto creo ver plástico (68% de confianza), pero no estoy seguro; también podría ser vidrio (31%), metal (0%). ¿Me confirmas qué material es? Puedes responder «sí» o escribir el material.
+Usuario: es vidrio
+  ↳ intención=clasificar_residuo (conf. 0.56) | regla=residuo mencionado (entidad)
+EcoBot: Vidrio → INORGÁNICOS RECICLABLES (contenedor gris). Se recoge lunes, miércoles, viernes y domingo. Entrégalos limpios y secos: enjuaga envases, aplasta botellas y cajas para que ocupen menos espacio.
 
 D6 · Residuo que no está en la base: el bot pide foto y la usa
 ------------------------------------------------------------------------
@@ -40,14 +40,14 @@ Usuario: ¿dónde tiro este envase?
   ↳ intención=clasificar_residuo (conf. 0.88) | regla=falta el residuo: pide foto o material
 EcoBot: No tengo ese residuo en mi base o no lo reconocí. ¿Me mandas una foto o me dices de qué material es (plástico, vidrio, papel, cartón, metal…)?
 Usuario: (sin texto)   [imagen: metal332.jpg]
-  ↳ intención=clasificar_residuo (conf. 1.00) | imagen=metal (p=0.97) | regla=clasificación por imagen
-EcoBot: En la foto veo metal (97% de confianza). Latas y metales → INORGÁNICOS RECICLABLES (contenedor gris). Se recoge lunes, miércoles, viernes y domingo. Entrégalos limpios y secos: enjuaga envases, aplasta botellas y cajas para que ocupen menos espacio.
+  ↳ intención=clasificar_residuo (conf. 1.00) | imagen=metal (p=0.99) | regla=clasificación por imagen
+EcoBot: En la foto veo metal (100% de confianza). Latas y metales → INORGÁNICOS RECICLABLES (contenedor gris). Se recoge lunes, miércoles, viernes y domingo. Entrégalos limpios y secos: enjuaga envases, aplasta botellas y cajas para que ocupen menos espacio.
 
 D7 · Clase de aprovechamiento limitado
 ------------------------------------------------------------------------
 Usuario: ¿esto se recicla?   [imagen: trash63.jpg]
-  ↳ intención=clasificar_residuo (conf. 0.82) | imagen=trash (p=0.94) | regla=clasificación por imagen
-EcoBot: En la foto veo basura no reciclable (94% de confianza). Parece un residuo de aprovechamiento limitado → INORGÁNICOS NO RECICLABLES (contenedor naranja). Se recoge lunes, miércoles, viernes y domingo. Si en realidad es un envase limpio de plástico, vidrio, metal o cartón, va con los reciclables.
+  ↳ intención=clasificar_residuo (conf. 0.82) | imagen=trash (p=0.99) | regla=clasificación por imagen
+EcoBot: En la foto veo basura no reciclable (99% de confianza). Parece un residuo de aprovechamiento limitado → INORGÁNICOS NO RECICLABLES (contenedor naranja). Se recoge lunes, miércoles, viernes y domingo. Si en realidad es un envase limpio de plástico, vidrio, metal o cartón, va con los reciclables.
 
 D8 · Conversación de texto con contexto (híbrido)
 ------------------------------------------------------------------------

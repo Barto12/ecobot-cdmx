@@ -51,13 +51,13 @@
   ],
   "extremo_a_extremo": {
     "fotos": 380,
-    "material_correcto": 0.8895,
-    "categoria_correcta_si_se_clasifica_todo": 0.9737,
-    "respondidas_directo": 356,
-    "categoria_correcta_en_respondidas": 0.9831,
-    "material_correcto_en_respondidas": 0.9129,
-    "pide_confirmacion": 24,
-    "en_dudosas_top1_correcto": 13,
-    "en_dudosas_real_en_top3": 22
+    "material_correcto": 0.8789,
+    "categoria_correcta_si_se_clasifica_todo": 0.9711,
+    "respondidas_directo": 301,
+    "categoria_correcta_en_respondidas": 0.9867,
+    "material_correcto_en_respondidas": 0.9468,
+    "pide_confirmacion": 79,
+    "en_dudosas_top1_correcto": 49,
+    "en_dudosas_real_en_top3": 76
   }
 }
